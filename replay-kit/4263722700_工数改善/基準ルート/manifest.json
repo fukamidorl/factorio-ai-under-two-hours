@@ -1,0 +1,33 @@
+{
+  "schema": 2,
+  "factorio_version": "2.1.25",
+  "seed": 4263722700,
+  "map_gen_settings": "world/map-gen-settings.json",
+  "start_world_tick": 1354,
+  "modes": {
+    "visible": {
+      "speed": 12,
+      "horizon_ticks": 468000
+    },
+    "headless": {
+      "speed": 48,
+      "horizon_ticks": 450000
+    }
+  },
+  "sha256": {
+    "mod/first-rocket-route-check_0.1.0/control.lua": "a5d962c7842b2590e9694f2a0867930a18dc3d421b69f7e7f6febd239b888f8c",
+    "mod/first-rocket-route-check_0.1.0/design.lua": "9a1a4b8021def0502daba6be4987c0f0b5901fab7287767b3fb0fdde9243e8a9",
+    "mod/first-rocket-route-check_0.1.0/factory.lua": "571dc4d21b159f3a1ca71b49429547be09dece4d2bd8a231f2ee849c65883763",
+    "mod/first-rocket-route-check_0.1.0/info.json": "6a00c92e153e36b9245a545f0353901d77d7e93f05a9d8d56c8de7e50c293881",
+    "mod/first-rocket-route-check_0.1.0/opening.lua": "83f4f32fb7e0051b4a7228da84f5d8ab768eb0f2dd7a2ef1f17b67378e386977",
+    "mod/first-rocket-route-check_0.1.0/policy.lua": "8dba3121ff98007788ad1edfab3bb1fc919bc73dacd5cd3362f82f2edfbdd82e",
+    "mod/first-rocket-route-check_0.1.0/process-sites.lua": "b0f3a1195450f1fe7c19464c6b236572af7bdf4410a4b8823b6a965dc029998f",
+    "mod/first-rocket-route-check_0.1.0/robot-sites.lua": "7e3f9c2c5520c1dca895c22f6747a4eb53dc89a0c734b2c21f1261298ba58744",
+    "mod/first-rocket-route-check_0.1.0/steel-sites.lua": "df5260f64e93176478b0050c199dc9e466b07c22104ac2d3c1137f27f177712c",
+    "mod/first-rocket-route-check_0.1.0/supply.lua": "2152c7d766205549a9ff06fc607faf90285077f0f0a77ff872e87cfd9cc3359f",
+    "mod/first-rocket-route-check_0.1.0/watch.lua": "ea728d58cd4d606150e33ebc19d038e968babdceca1068fba717519fa4a879a9",
+    "run_route.py": "7e8defba929887628fdab6590d4feb564223fbed9c19f543274ff12e52f05d51",
+    "world/map-gen-settings.json": "91e91ad140e5dfdaa541bdbc338965bcab89e1cfc411c5955f8b13c1e5fe782f"
+  },
+  "goal_world_ticks_exclusive": 360000
+}

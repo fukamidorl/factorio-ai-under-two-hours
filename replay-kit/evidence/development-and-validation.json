@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "recorded_on_jst": "2026-11-25",
+  "current_chat": {
+    "product": "ChatGPT Codex",
+    "model": "GPT-6.2 Sol",
+    "reasoning_effort": "ultra",
+    "reasoning_effort_label_ja": "ウルトラ",
+    "source": [
+      "user-provided model selection screenshot",
+      "local chat turn metadata"
+    ],
+    "at_record_date_jst": "2026-11-25",
+    "ultra_first_observed_jst": "2026-11-24T18:08:15+09:00"
+  },
+  "main_chat_started_at_jst": "2026-11-22T03:49:58+09:00",
+  "observed_earlier_reasoning_efforts": [
+    "xhigh",
+    "max"
+  ],
+  "weekly_allowance_observation": {
+    "percent_used_approx": 43,
+    "scope": "account-level weekly allowance",
+    "source": "current project user report",
+    "reported_plan_from_earlier_context": "ChatGPT Pro 100",
+    "reported_on_jst": "2026-11-25",
+    "weekly_window_bounds": null,
+    "project_only_percent": null,
+    "tokens": null,
+    "cost": null
+  },
+  "execution_audit": {
+    "from_date_jst": "2026-11-22",
+    "through_date_jst": "2026-11-25",
+    "combined_documented_gameplay_replay_and_inspection_starts": 689,
+    "formal_scripted_test_save_starts_included": 103,
+    "project_workspace": {
+      "log_file_candidates": 2595,
+      "log_observations_matching_header_and_arguments": 2292,
+      "unique_engine_starts_all_categories": 1161,
+      "duplicate_log_observations_merged": 1131,
+      "category_by_launch_mode": {
+        "project": {
+          "--create": 58,
+          "--test-save": 103,
+          "--benchmark": 148,
+          "--load-game": 375,
+          "--start-server": 59,
+          "--dump-data": 2,
+          "ordinary": 2
+        },
+        "rta-comparison": {
+          "--benchmark": 27,
+          "--test-save": 7,
+          "ordinary": 2
+        },
+        "seed-study": {
+          "--benchmark": 247,
+          "--create": 122,
+          "--load-game": 1,
+          "--generate-map-preview": 8
+        }
+      },
+      "cross_category_keys": {},
+      "included_modes": [
+        "--benchmark",
+        "--load-game",
+        "--start-server",
+        "--test-save",
+        "ordinary"
+      ],
+      "qualifying_project_starts": 687,
+      "qualifying_project_starts_by_day": [
+        {
+          "date_jst": "2026-11-22",
+          "start_count": 168,
+          "by_mode": {
+            "--benchmark": 52,
+            "--load-game": 107,
+            "--start-server": 9
+          },
+          "first_header_jst": "2026-11-22 05:04:00",
+          "last_header_jst": "2026-11-22 23:05:29",
+          "early_separate_tool_directory_starts": 2,
+          "combined_start_count": 170
+        },
+        {
+          "date_jst": "2026-11-23",
+          "start_count": 297,
+          "by_mode": {
+            "--benchmark": 60,
+            "--load-game": 194,
+            "--start-server": 2,
+            "--test-save": 41
+          },
+          "first_header_jst": "2026-11-23 00:43:17",
+          "last_header_jst": "2026-11-23 23:56:27",
+          "early_separate_tool_directory_starts": 0,
+          "combined_start_count": 297
+        },
+        {
+          "date_jst": "2026-11-24",
+          "start_count": 218,
+          "by_mode": {
+            "--benchmark": 36,
+            "--load-game": 73,
+            "--start-server": 45,
+            "--test-save": 62,
+            "ordinary": 2
+          },
+          "first_header_jst": "2026-11-24 00:01:05",
+          "last_header_jst": "2026-11-24 23:45:19",
+          "early_separate_tool_directory_starts": 0,
+          "combined_start_count": 218
+        },
+        {
+          "date_jst": "2026-11-25",
+          "start_count": 4,
+          "by_mode": {
+            "--load-game": 1,
+            "--start-server": 3
+          },
+          "first_header_jst": "2026-11-25 00:20:07",
+          "last_header_jst": "2026-11-25 00:48:05",
+          "early_separate_tool_directory_starts": 0,
+          "combined_start_count": 4
+        }
+      ]
+    },
+    "early_connection_tool_starts_added": [
+      {
+        "timestamp_jst": "2026-11-22T04:11:08+09:00",
+        "version": "2.1.24",
+        "mode": "--start-server"
+      },
+      {
+        "timestamp_jst": "2026-11-22T04:19:30+09:00",
+        "version": "2.1.24",
+        "mode": "--start-server"
+      }
+    ],
+    "selection": [
+      "Scan .log files in the project, excluding .git and temporary copies of loaded game internals.",
+      "Read the Factorio startup header and Program arguments. Deduplicate using the local date and time, version, and arguments normalized for case and path separators.",
+      "Separate seed-search and seed-draw-2026-11-23 from project runs. Separate rta* and survey-island/jehor/zaspar reference runs.",
+      "For this tally include --load-game, --benchmark, --test-save, --start-server and ordinary project starts. Count the two separate early connector server starts once."
+    ],
+    "meaning": "One logged program start, including aborted attempts, checkpoint reloads and inspections.",
+    "unrecorded_starts_and_operations_within_a_start": "not counted",
+    "seed_map_variants_compared_in_separate_study": 1279,
+    "classification_case_variants_from_reused_logs_separately": 19
+  },
+  "validation_updates": {
+    "visible_new_map_replay": {
+      "run_id": "visible-title-01",
+      "source_archive_sha256": "07878c0a3980c7c3685db320bedb0167c5efa11fb3456ed83822f7241e1f2a81",
+      "victory_screen_game_time": "01:36:16",
+      "delivery_game_time": "1:36:25.900",
+      "delivery_world_tick": 347154,
+      "pad_science": 1000,
+      "verified_events": 212,
+      "native_images_verified": 3
+    },
+    "visible_delivery_cli": {
+      "checks": 19,
+      "verified_in_source_archive_sha256": "bef2551f44290472579aee973a32fb53971c79538298c54780f4fbf0db154081"
+    },
+    "manual_checkpoint": {
+      "sha256": "c0a82d3c5c49fa0fe4aacdea0b77be8bb0a976df06bcd90f9a11e9f10c862b5b",
+      "map_condition_groups_matching_default": 7,
+      "new_steam_unlock_verified_for_this_checkpoint": false
+    }
+  }
+}

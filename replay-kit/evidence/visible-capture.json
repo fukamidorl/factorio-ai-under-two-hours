@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "seed": 4263722700,
+  "factorio_version": "2.1.25",
+  "build": 88022,
+  "mode": "visible",
+  "image_tick": 347155,
+  "image_source": "visible reload of the verified post-delivery save",
+  "delivery_save_sha256": "1036158ab479ed22c2c3dab652dff33ff4a0a2d51f7dc11cd4906f7b332fdb14",
+  "start_world_tick": 1354,
+  "stock_after_delivery": 1000,
+  "metrics": {
+    "event_world_ticks_equal": false,
+    "production_equal": false,
+    "consumption_equal": false,
+    "reference_event_world_ticks": {
+      "launch-ordered": 337693,
+      "launch": 338855,
+      "cargo-pod-delivered": 339423,
+      "delivery": 339424
+    },
+    "additional_visible_events": [
+      "victory"
+    ]
+  },
+  "event_world_ticks": {
+    "launch-ordered": 345423,
+    "launch": 346585,
+    "cargo-pod-delivered": 347153,
+    "delivery": 347154
+  },
+  "source_images": {
+    "overview": {
+      "file": "factory-overview.png",
+      "width": 4096,
+      "height": 3008,
+      "sha256": "7de6dce372b6f40ec9332bb6895031a15e567f5509aa9ac3290270c4436c9027"
+    },
+    "terminal": {
+      "file": "factory-terminal.png",
+      "width": 1920,
+      "height": 1280,
+      "sha256": "b2d5150512747bbf24eb79afce71f5d18dba845ebe57e822e0ad2b8a54c2cf3f"
+    },
+    "labs": {
+      "file": "factory-labs.png",
+      "width": 2304,
+      "height": 1536,
+      "sha256": "103834bfadf7099d65cf099509efcf74ad34608952656e061aa74a32f1a0edbe"
+    }
+  },
+  "physical_links_by_kind": {
+    "pipe": 587
+  },
+  "link_query_failures": {},
+  "counted_entities": 5588,
+  "capture_manifest_sha256": "105f37293ae354ddb5b739cc6e157ce08154e78c8c7dc41a4d16c9cb3976d3e5",
+  "input_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+  "world_time_at_delivery": "1:36:25.900",
+  "included_annotated_image": {
+    "path_from_package_root": "images/factory-annotated.png",
+    "sha256": "531265b061f2910a6d423cdda26b47df9c4b1cd98f093e3864c28415913c5274",
+    "width": 2080,
+    "height": 1320
+  }
+}

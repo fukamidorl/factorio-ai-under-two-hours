@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "suite": {
+    "schema_version": 1,
+    "all_as_expected": true,
+    "cases": [
+      {
+        "id": "practice-hides-answer-key",
+        "state": "ready",
+        "cases": 4,
+        "exit_code": 0
+      },
+      {
+        "id": "unknown-id",
+        "state": "incomplete",
+        "reason": "result_not_found",
+        "exit_code": 2
+      },
+      {
+        "id": "duplicate-real-id",
+        "state": "failed",
+        "reason": "id_already_used",
+        "exit_code": 1
+      },
+      {
+        "id": "controlled-complete-output",
+        "state": "matched",
+        "reason": "verified"
+      },
+      {
+        "id": "preflight",
+        "state": "starting",
+        "reason": "launcher_preflight"
+      },
+      {
+        "id": "running",
+        "state": "running",
+        "reason": "verifying"
+      },
+      {
+        "id": "failure",
+        "state": "failed",
+        "reason": "pinned_input_mismatch"
+      },
+      {
+        "id": "missing-receipt",
+        "state": "incomplete",
+        "reason": "missing_completion_receipt"
+      },
+      {
+        "id": "wrong-baseline",
+        "state": "failed",
+        "reason": "pinned_input_mismatch"
+      },
+      {
+        "id": "generated-world-hash-mismatch",
+        "state": "failed",
+        "reason": "initial_world_mismatch"
+      },
+      {
+        "id": "failed-process-after-cargo",
+        "state": "failed",
+        "reason": "process_or_verification_failed"
+      },
+      {
+        "id": "missing-delivery-in-proof",
+        "state": "incomplete",
+        "reason": "unconfirmed_arrival"
+      },
+      {
+        "id": "corrupt-proof",
+        "state": "incomplete",
+        "reason": "unreadable_completion_evidence"
+      }
+    ]
+  },
+  "blind_codex_agent_fixture_scores_out_of_eight": [
+    7,
+    6,
+    8
+  ],
+  "external_models_tested": false
+}

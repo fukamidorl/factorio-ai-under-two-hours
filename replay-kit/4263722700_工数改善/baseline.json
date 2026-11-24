@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "factorio_version": "2.1.25",
+  "factorio_build": 88022,
+  "seed": 4263722700,
+  "start_world_tick": 1354,
+  "input_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+  "mode": "headless",
+  "route_manifest_sha256": "9d7fbb0e9e81b899c9a3a1dcccf2407ef6982fdc8adafcce53971066e5d38127",
+  "reference_file": "reference/through-latest.json",
+  "reference_sha256": "abea3e622b3571c595016a718546f103254e50c1612854083781057b671c65da"
+}

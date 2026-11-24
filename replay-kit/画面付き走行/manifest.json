@@ -1,0 +1,34 @@
+{
+  "schema": 2,
+  "factorio_version": "2.1.25",
+  "seed": 4263722700,
+  "map_gen_settings": "world/map-gen-settings.json",
+  "start_world_tick": 1354,
+  "modes": {
+    "visible": {
+      "speed": 12,
+      "horizon_ticks": 468000
+    },
+    "headless": {
+      "speed": 48,
+      "horizon_ticks": 450000
+    }
+  },
+  "sha256": {
+    "mod/first-rocket-route-check_0.1.0/control.lua": "78bed9ab347c8998be73e7969ee7bc3d2dd5240e5a77d470185a18abfa702c49",
+    "mod/first-rocket-route-check_0.1.0/design.lua": "9a1a4b8021def0502daba6be4987c0f0b5901fab7287767b3fb0fdde9243e8a9",
+    "mod/first-rocket-route-check_0.1.0/factory.lua": "36f63f0d497b95a4f375412f12bf969180cf32b4773424cbc5ddd9523500ff3c",
+    "mod/first-rocket-route-check_0.1.0/info.json": "6a00c92e153e36b9245a545f0353901d77d7e93f05a9d8d56c8de7e50c293881",
+    "mod/first-rocket-route-check_0.1.0/opening.lua": "83f4f32fb7e0051b4a7228da84f5d8ab768eb0f2dd7a2ef1f17b67378e386977",
+    "mod/first-rocket-route-check_0.1.0/policy.lua": "8dba3121ff98007788ad1edfab3bb1fc919bc73dacd5cd3362f82f2edfbdd82e",
+    "mod/first-rocket-route-check_0.1.0/process-sites.lua": "b0f3a1195450f1fe7c19464c6b236572af7bdf4410a4b8823b6a965dc029998f",
+    "mod/first-rocket-route-check_0.1.0/robot-sites.lua": "7e3f9c2c5520c1dca895c22f6747a4eb53dc89a0c734b2c21f1261298ba58744",
+    "mod/first-rocket-route-check_0.1.0/steel-sites.lua": "df5260f64e93176478b0050c199dc9e466b07c22104ac2d3c1137f27f177712c",
+    "mod/first-rocket-route-check_0.1.0/supply.lua": "2152c7d766205549a9ff06fc607faf90285077f0f0a77ff872e87cfd9cc3359f",
+    "mod/first-rocket-route-check_0.1.0/watch.lua": "fc556db7ad3a57bcb2a016aab822977c9ec75f27df8f755fa105dbc395fa2dac",
+    "run_route.py": "1dc5ebc4f501417ee6d53b1c9ad609a602cfbb21f52142b5071e4e6ce1491568",
+    "world/map-gen-settings.json": "91e91ad140e5dfdaa541bdbc338965bcab89e1cfc411c5955f8b13c1e5fe782f",
+    "mod/first-rocket-route-check_0.1.0/capture.lua": "29ae95dc4629ee18d5e7174338dec874fea7b837cb048c8767506f04dc196b64"
+  },
+  "goal_world_ticks_exclusive": 360000
+}

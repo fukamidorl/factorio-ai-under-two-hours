@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "test_kind": "CLI report from real screen-visible snapshots and isolated negative fixtures",
+  "report_option": "--require-delivery",
+  "source_archive_sha256": "07878c0a3980c7c3685db320bedb0167c5efa11fb3456ed83822f7241e1f2a81",
+  "source_visible_run_id": "visible-title-01",
+  "source_stream_sha256": "fc8c933f35b24a6cecf87d93b6db37b3112c5bf39c9310f8b1252179f6a6dd03",
+  "source_run_delivery_world_tick": 347154,
+  "source_run_delivery_time": "1:36:25.900",
+  "source_run_inventory": 1000,
+  "source_run_events_compared": 212,
+  "visible_manifest_sha256": "0c7040ece988b85d868fddcd036d745da8f84153b85cfa98145165105048d110",
+  "parent_visible_manifest_sha256": "71db3dafd5cfd100fd89b6f7f86e46dc6f6adcbdf3fe79e09fd5e1501419ecce",
+  "visible_runner_sha256": "1dc5ebc4f501417ee6d53b1c9ad609a602cfbb21f52142b5071e4e6ce1491568",
+  "lua_or_world_inputs_changed": false,
+  "case_count": 19,
+  "cases": [
+    {
+      "case": "missing-run",
+      "exit_code": 2,
+      "state": "awaiting-delivery",
+      "reason": "run_metadata_pending"
+    },
+    {
+      "case": "metadata-writing",
+      "exit_code": 2,
+      "state": "awaiting-delivery",
+      "reason": "run_metadata_pending"
+    },
+    {
+      "case": "starting",
+      "exit_code": 2,
+      "state": "awaiting-delivery",
+      "reason": "delivery_event_pending"
+    },
+    {
+      "case": "snapshot-writing",
+      "exit_code": 2,
+      "state": "awaiting-delivery",
+      "reason": "delivery_event_pending"
+    },
+    {
+      "case": "real-victory",
+      "exit_code": 2,
+      "state": "awaiting-delivery",
+      "reason": "delivery_event_pending",
+      "real_world_tick": 346586,
+      "legacy_report_unchanged": true,
+      "legacy_report_state": "goal-met"
+    },
+    {
+      "case": "real-flight",
+      "exit_code": 2,
+      "state": "awaiting-delivery",
+      "reason": "delivery_event_pending",
+      "real_world_tick": 346954,
+      "legacy_report_unchanged": true,
+      "legacy_report_state": "goal-met"
+    },
+    {
+      "case": "real-arrival",
+      "exit_code": 0,
+      "state": "delivery-verified",
+      "reason": "delivery_verified",
+      "real_world_tick": 347154,
+      "legacy_report_unchanged": true,
+      "legacy_report_state": "goal-met"
+    },
+    {
+      "case": "wrong-mode",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "unexpected_seed_or_mode"
+    },
+    {
+      "case": "wrong-run-seed",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "unexpected_seed_or_mode"
+    },
+    {
+      "case": "wrong-runtime-build-version",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "run_failed"
+    },
+    {
+      "case": "malformed-snapshot",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "invalid_run_evidence"
+    },
+    {
+      "case": "short-cargo",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "inconsistent_delivery_evidence"
+    },
+    {
+      "case": "excess-cargo",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "inconsistent_delivery_evidence"
+    },
+    {
+      "case": "missing-satellite",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "inconsistent_delivery_evidence"
+    },
+    {
+      "case": "missing-pod-event",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "inconsistent_delivery_evidence"
+    },
+    {
+      "case": "misordered-cargo",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "inconsistent_delivery_evidence"
+    },
+    {
+      "case": "incorrect-clock-origin",
+      "exit_code": 1,
+      "state": "failed",
+      "reason": "inconsistent_delivery_evidence"
+    },
+    {
+      "case": "just-under-cutoff",
+      "exit_code": 0,
+      "state": "delivery-verified",
+      "reason": "delivery_verified"
+    },
+    {
+      "case": "at-cutoff",
+      "exit_code": 1,
+      "state": "time-missed",
+      "reason": "delivery_time_missed"
+    }
+  ],
+  "new_gameplay_started_for_cli_checks": false
+}

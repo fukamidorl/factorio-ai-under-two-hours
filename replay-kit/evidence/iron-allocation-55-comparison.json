@@ -1,0 +1,3908 @@
+{
+  "test_date_jst": "2026-11-25",
+  "factorio_build": 88022,
+  "runner": "Factorio --test-save (headless)",
+  "enabled_mods": [
+    "base",
+    "first-rocket-route-check"
+  ],
+  "time_reference": "world_tick",
+  "ticks_per_game_second": 60,
+  "changed_guard": "Start the 37% iron plate share for electronic circuits at rocket-silo research progress 0.55 instead of 0.65.",
+  "factory_sha256": "571dc4d21b159f3a1ca71b49429547be09dece4d2bd8a231f2ee849c65883763",
+  "adopted_zip_sha256": "17af667ace63b8612524e5d83e608a204326dc1c39ed0522eb776292fa08530a",
+  "run_metadata": {
+    "iron-55-01": {
+      "source_run_id": "iron-earlier-55-01"
+    },
+    "iron-55-02": {
+      "source_run_id": "iron-earlier-55-02"
+    }
+  },
+  "replay_validation": [
+    {
+      "schema_version": 1,
+      "run_id": "iron-earlier-55-01",
+      "state": "matched",
+      "reason": "All process, input, event, and inventory evidence matches.",
+      "route_manifest_sha256": "9d7fbb0e9e81b899c9a3a1dcccf2407ef6982fdc8adafcce53971066e5d38127",
+      "input_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+      "factorio_version": "2.1.25",
+      "factorio_build": 88022,
+      "seed": 4263722700,
+      "world_ticks": {
+        "satellite-loaded": 330724,
+        "launch-ordered": 337556,
+        "launch": 338718,
+        "cargo-pod-delivered": 339286,
+        "delivery": 339287
+      },
+      "event_count": 223,
+      "produced_count": 49,
+      "consumed_count": 45,
+      "factorio_process_seconds": 383,
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000,
+      "silo_parts": 0
+    },
+    {
+      "schema_version": 1,
+      "run_id": "iron-earlier-55-02",
+      "state": "matched",
+      "reason": "All process, input, event, and inventory evidence matches.",
+      "route_manifest_sha256": "9d7fbb0e9e81b899c9a3a1dcccf2407ef6982fdc8adafcce53971066e5d38127",
+      "input_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+      "factorio_version": "2.1.25",
+      "factorio_build": 88022,
+      "seed": 4263722700,
+      "world_ticks": {
+        "satellite-loaded": 330724,
+        "launch-ordered": 337556,
+        "launch": 338718,
+        "cargo-pod-delivered": 339286,
+        "delivery": 339287
+      },
+      "event_count": 223,
+      "produced_count": 49,
+      "consumed_count": 45,
+      "factorio_process_seconds": 382.651,
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000,
+      "silo_parts": 0
+    }
+  ],
+  "candidate_baseline_path": "4263722700_工数改善/baseline.json",
+  "candidate_baseline_sha256": "39fa2f4d2c1b87bf9fc032c30318d4c6e5427c0a77eb83578ec9326f17b33aab",
+  "comparison": {
+    "arrival_diff_from_old_combined_ticks": -542,
+    "arrival_diff_from_adopted_ticks": -137,
+    "best_headless_time_improved_and_repeated": true
+  },
+  "development_record": {
+    "current_chat": "ChatGPT Codex GPT-6.2 Sol / ultra",
+    "weekly_allowance_used_percent_approx_user_report": 43,
+    "jst_date_range": [
+      "2026-11-22",
+      "2026-11-25"
+    ],
+    "qualifying_starts_before_this_experiment": 690,
+    "formal_scripted_test_save_starts_before_this_experiment": 104,
+    "additional_qualifying_starts": 2,
+    "qualifying_starts_after_this_experiment": 692,
+    "formal_scripted_test_save_starts_after_this_experiment": 106
+  },
+  "results": {
+    "adopted": {
+      "input_map_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+      "version": "2.1.25",
+      "seed": 4263722700,
+      "origin_world_tick": 1354,
+      "latest_world_tick": 339424,
+      "current_research": null,
+      "research_progress": 0,
+      "events_world_tick": {
+        "research-start-rocket-silo": 288544,
+        "assembler-reassigned-to-processing-unit": 313774,
+        "research-done-rocket-silo": 328307,
+        "silo-placed": 329614,
+        "first-satellite": 328954,
+        "satellite-loaded": 330844,
+        "silo-status-create_rocket": 336771,
+        "launch-ordered": 337693,
+        "launch": 338855,
+        "cargo-pod-delivered": 339423,
+        "delivery": 339424
+      },
+      "events_world_time": {
+        "research-start-rocket-silo": "1:20:09.067",
+        "assembler-reassigned-to-processing-unit": "1:27:09.567",
+        "research-done-rocket-silo": "1:31:11.783",
+        "silo-placed": "1:31:33.567",
+        "first-satellite": "1:31:22.567",
+        "satellite-loaded": "1:31:54.067",
+        "silo-status-create_rocket": "1:33:32.850",
+        "launch-ordered": "1:33:48.217",
+        "launch": "1:34:07.583",
+        "cargo-pod-delivered": "1:34:17.050",
+        "delivery": "1:34:17.067"
+      },
+      "rocket_count": 1,
+      "satellite_count": 1,
+      "pad_science": 1000,
+      "delivery_count": 1000,
+      "pod_count": 1000,
+      "silo_parts": 0,
+      "terminal_materials_at_unlock": {
+        "processing-unit": {
+          "warehouse": 196,
+          "reserve": 835
+        },
+        "low-density-structure": {
+          "warehouse": 12,
+          "reserve": 1100
+        },
+        "rocket-fuel": {
+          "warehouse": 64,
+          "reserve": 1050
+        },
+        "solar-panel": {
+          "warehouse": 30,
+          "reserve": 95
+        },
+        "accumulator": {
+          "warehouse": 30,
+          "reserve": 80
+        },
+        "concrete": {
+          "warehouse": 1800,
+          "reserve": 1200
+        }
+      },
+      "released_processing_units_for_yellow": 415,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "final_total_produced": {
+        "iron-plate": 465186,
+        "copper-cable": 445308,
+        "steel-plate": 42151,
+        "iron-gear-wheel": 37617,
+        "inserter": 6940,
+        "transport-belt": 7870,
+        "engine-unit": 4883,
+        "electric-engine-unit": 986,
+        "electronic-circuit": 119992,
+        "advanced-circuit": 19925,
+        "processing-unit": 2482,
+        "sulfuric-acid": 78000,
+        "productivity-module": 698,
+        "chemical-science-pack": 3694,
+        "production-science-pack": 1830,
+        "utility-science-pack": 1449
+      },
+      "resource_samples": [
+        {
+          "world_tick": 307354,
+          "progress": 0.5018821522338089,
+          "active_labs": 57,
+          "steam_mw": 140.43150000000034,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 383714,
+            "copper-cable": 341550,
+            "steel-plate": 34894,
+            "iron-gear-wheel": 34044,
+            "inserter": 6472,
+            "transport-belt": 6972,
+            "engine-unit": 3701,
+            "electric-engine-unit": 531,
+            "electronic-circuit": 88334,
+            "advanced-circuit": 16218,
+            "processing-unit": 1568,
+            "sulfuric-acid": 59700,
+            "productivity-module": 524,
+            "chemical-science-pack": 2958,
+            "production-science-pack": 1215,
+            "utility-science-pack": 654
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9158,
+            "copper-cable": 11114,
+            "steel-plate": 844,
+            "iron-gear-wheel": 450,
+            "inserter": 170,
+            "transport-belt": 146,
+            "engine-unit": 135,
+            "electric-engine-unit": 40,
+            "electronic-circuit": 2859,
+            "advanced-circuit": 625,
+            "processing-unit": 50,
+            "sulfuric-acid": 2850,
+            "productivity-module": 0,
+            "chemical-science-pack": 86,
+            "production-science-pack": 66,
+            "utility-science-pack": 72
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4479,
+            "steel-plate": 1441,
+            "iron-gear-wheel": 0,
+            "inserter": 85,
+            "transport-belt": 157,
+            "engine-unit": 0,
+            "electric-engine-unit": 0,
+            "electronic-circuit": 0,
+            "advanced-circuit": 1186,
+            "processing-unit": 396,
+            "sulfuric-acid": 4490,
+            "productivity-module": 15,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 0
+          },
+          "processing_unit_launch_reserve": 557,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 39,
+              "item_ingredient_shortage": 9
+            },
+            "processing-unit": {
+              "working": 11,
+              "item_ingredient_shortage": 14
+            },
+            "steel-plate": {
+              "working": 117,
+              "no_ingredients": 58,
+              "full_output": 7
+            },
+            "production-science-pack": {
+              "working": 11,
+              "item_ingredient_shortage": 14
+            },
+            "utility-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 4
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 310954,
+          "progress": 0.586490077231585,
+          "active_labs": 57,
+          "steam_mw": 137.55450000000047,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 392924,
+            "copper-cable": 352476,
+            "steel-plate": 35791,
+            "iron-gear-wheel": 34468,
+            "inserter": 6614,
+            "transport-belt": 7116,
+            "engine-unit": 3830,
+            "electric-engine-unit": 567,
+            "electronic-circuit": 91113,
+            "advanced-circuit": 16787,
+            "processing-unit": 1618,
+            "sulfuric-acid": 61650,
+            "productivity-module": 560,
+            "chemical-science-pack": 3052,
+            "production-science-pack": 1287,
+            "utility-science-pack": 741
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9210,
+            "copper-cable": 10926,
+            "steel-plate": 897,
+            "iron-gear-wheel": 424,
+            "inserter": 142,
+            "transport-belt": 144,
+            "engine-unit": 129,
+            "electric-engine-unit": 36,
+            "electronic-circuit": 2779,
+            "advanced-circuit": 569,
+            "processing-unit": 50,
+            "sulfuric-acid": 1950,
+            "productivity-module": 36,
+            "chemical-science-pack": 94,
+            "production-science-pack": 72,
+            "utility-science-pack": 87
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4444,
+            "steel-plate": 1440,
+            "iron-gear-wheel": 24,
+            "inserter": 81,
+            "transport-belt": 155,
+            "engine-unit": 0,
+            "electric-engine-unit": 0,
+            "electronic-circuit": 1,
+            "advanced-circuit": 981,
+            "processing-unit": 339,
+            "sulfuric-acid": 3780,
+            "productivity-module": 28,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 0
+          },
+          "processing_unit_launch_reserve": 594,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 35,
+              "item_ingredient_shortage": 13
+            },
+            "processing-unit": {
+              "working": 11,
+              "item_ingredient_shortage": 14
+            },
+            "steel-plate": {
+              "working": 127,
+              "no_ingredients": 46,
+              "full_output": 9
+            },
+            "production-science-pack": {
+              "working": 11,
+              "item_ingredient_shortage": 14
+            },
+            "utility-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 3
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 314554,
+          "progress": 0.6684405033389339,
+          "active_labs": 56,
+          "steam_mw": 146.17650000000035,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 402087,
+            "copper-cable": 362958,
+            "steel-plate": 36695,
+            "iron-gear-wheel": 34906,
+            "inserter": 6759,
+            "transport-belt": 7262,
+            "engine-unit": 3965,
+            "electric-engine-unit": 605,
+            "electronic-circuit": 94024,
+            "advanced-circuit": 17327,
+            "processing-unit": 1677,
+            "sulfuric-acid": 63600,
+            "productivity-module": 606,
+            "chemical-science-pack": 3142,
+            "production-science-pack": 1353,
+            "utility-science-pack": 849
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9163,
+            "copper-cable": 10482,
+            "steel-plate": 904,
+            "iron-gear-wheel": 438,
+            "inserter": 145,
+            "transport-belt": 146,
+            "engine-unit": 135,
+            "electric-engine-unit": 38,
+            "electronic-circuit": 2911,
+            "advanced-circuit": 540,
+            "processing-unit": 59,
+            "sulfuric-acid": 1950,
+            "productivity-module": 46,
+            "chemical-science-pack": 90,
+            "production-science-pack": 66,
+            "utility-science-pack": 108
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4452,
+            "steel-plate": 1443,
+            "iron-gear-wheel": 76,
+            "inserter": 82,
+            "transport-belt": 157,
+            "engine-unit": 0,
+            "electric-engine-unit": 0,
+            "electronic-circuit": 1,
+            "advanced-circuit": 1075,
+            "processing-unit": 275,
+            "sulfuric-acid": 2695,
+            "productivity-module": 46,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 18
+          },
+          "processing_unit_launch_reserve": 645,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 15,
+              "item_ingredient_shortage": 15
+            },
+            "steel-plate": {
+              "working": 116,
+              "no_ingredients": 56,
+              "full_output": 10
+            },
+            "production-science-pack": {
+              "working": 12,
+              "item_ingredient_shortage": 13
+            },
+            "utility-science-pack": {
+              "working": 16,
+              "item_ingredient_shortage": 2
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 318154,
+          "progress": 0.7527853611128487,
+          "active_labs": 55,
+          "steam_mw": 142.0575000000006,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 411294,
+            "copper-cable": 374276,
+            "steel-plate": 37512,
+            "iron-gear-wheel": 35338,
+            "inserter": 6784,
+            "transport-belt": 7280,
+            "engine-unit": 4094,
+            "electric-engine-unit": 643,
+            "electronic-circuit": 97626,
+            "advanced-circuit": 17809,
+            "processing-unit": 1764,
+            "sulfuric-acid": 65450,
+            "productivity-module": 606,
+            "chemical-science-pack": 3236,
+            "production-science-pack": 1428,
+            "utility-science-pack": 945
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9207,
+            "copper-cable": 11318,
+            "steel-plate": 817,
+            "iron-gear-wheel": 432,
+            "inserter": 25,
+            "transport-belt": 18,
+            "engine-unit": 129,
+            "electric-engine-unit": 38,
+            "electronic-circuit": 3602,
+            "advanced-circuit": 482,
+            "processing-unit": 87,
+            "sulfuric-acid": 1850,
+            "productivity-module": 0,
+            "chemical-science-pack": 94,
+            "production-science-pack": 75,
+            "utility-science-pack": 96
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4435,
+            "steel-plate": 1432,
+            "iron-gear-wheel": 357,
+            "inserter": 95,
+            "transport-belt": 163,
+            "engine-unit": 0,
+            "electric-engine-unit": 0,
+            "electronic-circuit": 0,
+            "advanced-circuit": 1015,
+            "processing-unit": 213,
+            "sulfuric-acid": 1310,
+            "productivity-module": 16,
+            "chemical-science-pack": 1,
+            "production-science-pack": 0,
+            "utility-science-pack": 17
+          },
+          "processing_unit_launch_reserve": 714,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 25,
+              "item_ingredient_shortage": 5
+            },
+            "steel-plate": {
+              "working": 108,
+              "no_ingredients": 65,
+              "full_output": 9
+            },
+            "production-science-pack": {
+              "working": 13,
+              "item_ingredient_shortage": 12
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 321754,
+          "progress": 0.8390615994422704,
+          "active_labs": 62,
+          "steam_mw": 143.15850000000012,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 420427,
+            "copper-cable": 386174,
+            "steel-plate": 38401,
+            "iron-gear-wheel": 35480,
+            "inserter": 6784,
+            "transport-belt": 7280,
+            "engine-unit": 4229,
+            "electric-engine-unit": 681,
+            "electronic-circuit": 101111,
+            "advanced-circuit": 18228,
+            "processing-unit": 1876,
+            "sulfuric-acid": 67450,
+            "productivity-module": 642,
+            "chemical-science-pack": 3328,
+            "production-science-pack": 1512,
+            "utility-science-pack": 1056
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9133,
+            "copper-cable": 11898,
+            "steel-plate": 889,
+            "iron-gear-wheel": 142,
+            "inserter": 0,
+            "transport-belt": 0,
+            "engine-unit": 135,
+            "electric-engine-unit": 38,
+            "electronic-circuit": 3485,
+            "advanced-circuit": 419,
+            "processing-unit": 112,
+            "sulfuric-acid": 2000,
+            "productivity-module": 36,
+            "chemical-science-pack": 92,
+            "production-science-pack": 84,
+            "utility-science-pack": 111
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4464,
+            "steel-plate": 1442,
+            "iron-gear-wheel": 364,
+            "inserter": 95,
+            "transport-belt": 163,
+            "engine-unit": 0,
+            "electric-engine-unit": 0,
+            "electronic-circuit": 0,
+            "advanced-circuit": 472,
+            "processing-unit": 195,
+            "sulfuric-acid": 80,
+            "productivity-module": 21,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 49
+          },
+          "processing_unit_launch_reserve": 770,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 47,
+              "item_ingredient_shortage": 1
+            },
+            "processing-unit": {
+              "working": 22,
+              "item_ingredient_shortage": 8
+            },
+            "steel-plate": {
+              "working": 125,
+              "no_ingredients": 49,
+              "full_output": 8
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 325354,
+          "progress": 0.9263541833272741,
+          "active_labs": 56,
+          "steam_mw": 144.07250000000067,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 429516,
+            "copper-cable": 398234,
+            "steel-plate": 39370,
+            "iron-gear-wheel": 35609,
+            "inserter": 6784,
+            "transport-belt": 7280,
+            "engine-unit": 4358,
+            "electric-engine-unit": 719,
+            "electronic-circuit": 104611,
+            "advanced-circuit": 18737,
+            "processing-unit": 1982,
+            "sulfuric-acid": 69300,
+            "productivity-module": 696,
+            "chemical-science-pack": 3428,
+            "production-science-pack": 1599,
+            "utility-science-pack": 1170
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9089,
+            "copper-cable": 12060,
+            "steel-plate": 969,
+            "iron-gear-wheel": 129,
+            "inserter": 0,
+            "transport-belt": 0,
+            "engine-unit": 129,
+            "electric-engine-unit": 38,
+            "electronic-circuit": 3500,
+            "advanced-circuit": 509,
+            "processing-unit": 106,
+            "sulfuric-acid": 1850,
+            "productivity-module": 54,
+            "chemical-science-pack": 100,
+            "production-science-pack": 87,
+            "utility-science-pack": 114
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 3588,
+            "steel-plate": 1435,
+            "iron-gear-wheel": 324,
+            "inserter": 95,
+            "transport-belt": 155,
+            "engine-unit": 0,
+            "electric-engine-unit": 0,
+            "electronic-circuit": 1,
+            "advanced-circuit": 502,
+            "processing-unit": 195,
+            "sulfuric-acid": 40,
+            "productivity-module": 44,
+            "chemical-science-pack": 12,
+            "production-science-pack": 0,
+            "utility-science-pack": 75
+          },
+          "processing_unit_launch_reserve": 802,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 40,
+              "item_ingredient_shortage": 8
+            },
+            "processing-unit": {
+              "working": 25,
+              "item_ingredient_shortage": 5
+            },
+            "steel-plate": {
+              "working": 126,
+              "no_ingredients": 49,
+              "full_output": 7
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "working": 18
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 328954,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 142.0450000000002,
+          "steam_capacity_mw": 169.20000000000059,
+          "silo_parts": 0,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 438687,
+            "copper-cable": 410294,
+            "steel-plate": 40242,
+            "iron-gear-wheel": 35960,
+            "inserter": 6803,
+            "transport-belt": 7336,
+            "engine-unit": 4493,
+            "electric-engine-unit": 759,
+            "electronic-circuit": 108300,
+            "advanced-circuit": 19368,
+            "processing-unit": 2092,
+            "sulfuric-acid": 71350,
+            "productivity-module": 698,
+            "chemical-science-pack": 3518,
+            "production-science-pack": 1692,
+            "utility-science-pack": 1281
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9171,
+            "copper-cable": 12060,
+            "steel-plate": 872,
+            "iron-gear-wheel": 351,
+            "inserter": 19,
+            "transport-belt": 56,
+            "engine-unit": 135,
+            "electric-engine-unit": 40,
+            "electronic-circuit": 3689,
+            "advanced-circuit": 631,
+            "processing-unit": 110,
+            "sulfuric-acid": 2050,
+            "productivity-module": 2,
+            "chemical-science-pack": 90,
+            "production-science-pack": 93,
+            "utility-science-pack": 111
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 2692,
+            "steel-plate": 1509,
+            "iron-gear-wheel": 153,
+            "inserter": 114,
+            "transport-belt": 199,
+            "engine-unit": 0,
+            "electric-engine-unit": 8,
+            "electronic-circuit": 0,
+            "advanced-circuit": 655,
+            "processing-unit": 216,
+            "sulfuric-acid": 285,
+            "productivity-module": 23,
+            "chemical-science-pack": 21,
+            "production-science-pack": 15,
+            "utility-science-pack": 109
+          },
+          "processing_unit_launch_reserve": 525,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 24,
+              "item_ingredient_shortage": 10
+            },
+            "steel-plate": {
+              "working": 95,
+              "no_ingredients": 81,
+              "full_output": 6
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "working": 18
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        },
+        {
+          "world_tick": 332554,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 129.06333333333373,
+          "steam_capacity_mw": 174.60000000000062,
+          "silo_parts": 40,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 447769,
+            "copper-cable": 422354,
+            "steel-plate": 40847,
+            "iron-gear-wheel": 36541,
+            "inserter": 6883,
+            "transport-belt": 7480,
+            "engine-unit": 4622,
+            "electric-engine-unit": 830,
+            "electronic-circuit": 112320,
+            "advanced-circuit": 19562,
+            "processing-unit": 2204,
+            "sulfuric-acid": 73200,
+            "productivity-module": 698,
+            "chemical-science-pack": 3610,
+            "production-science-pack": 1779,
+            "utility-science-pack": 1395
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9082,
+            "copper-cable": 12060,
+            "steel-plate": 605,
+            "iron-gear-wheel": 581,
+            "inserter": 80,
+            "transport-belt": 144,
+            "engine-unit": 129,
+            "electric-engine-unit": 71,
+            "electronic-circuit": 4020,
+            "advanced-circuit": 194,
+            "processing-unit": 112,
+            "sulfuric-acid": 1850,
+            "productivity-module": 0,
+            "chemical-science-pack": 92,
+            "production-science-pack": 87,
+            "utility-science-pack": 114
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 2644,
+            "steel-plate": 1435,
+            "iron-gear-wheel": 7,
+            "inserter": 194,
+            "transport-belt": 283,
+            "engine-unit": 26,
+            "electric-engine-unit": 79,
+            "electronic-circuit": 10,
+            "advanced-circuit": 547,
+            "processing-unit": 328,
+            "sulfuric-acid": 880,
+            "productivity-module": 23,
+            "chemical-science-pack": 113,
+            "production-science-pack": 102,
+            "utility-science-pack": 223
+          },
+          "processing_unit_launch_reserve": 25,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 30,
+              "item_ingredient_shortage": 4
+            },
+            "steel-plate": {
+              "working": 91,
+              "no_ingredients": 86,
+              "full_output": 5
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        },
+        {
+          "world_tick": 336154,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 119.2083333333329,
+          "steam_capacity_mw": 174.60000000000062,
+          "silo_parts": 91,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 456950,
+            "copper-cable": 434414,
+            "steel-plate": 41537,
+            "iron-gear-wheel": 37078,
+            "inserter": 6935,
+            "transport-belt": 7620,
+            "engine-unit": 4757,
+            "electric-engine-unit": 911,
+            "electronic-circuit": 116340,
+            "advanced-circuit": 19579,
+            "processing-unit": 2349,
+            "sulfuric-acid": 76100,
+            "productivity-module": 698,
+            "chemical-science-pack": 3694,
+            "production-science-pack": 1830,
+            "utility-science-pack": 1449
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9181,
+            "copper-cable": 12060,
+            "steel-plate": 690,
+            "iron-gear-wheel": 537,
+            "inserter": 52,
+            "transport-belt": 140,
+            "engine-unit": 135,
+            "electric-engine-unit": 81,
+            "electronic-circuit": 4020,
+            "advanced-circuit": 17,
+            "processing-unit": 145,
+            "sulfuric-acid": 2900,
+            "productivity-module": 0,
+            "chemical-science-pack": 84,
+            "production-science-pack": 51,
+            "utility-science-pack": 54
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 2012,
+            "steel-plate": 1446,
+            "iron-gear-wheel": 63,
+            "inserter": 246,
+            "transport-belt": 419,
+            "engine-unit": 80,
+            "electric-engine-unit": 160,
+            "electronic-circuit": 1,
+            "advanced-circuit": 264,
+            "processing-unit": 28,
+            "sulfuric-acid": 1460,
+            "productivity-module": 23,
+            "chemical-science-pack": 197,
+            "production-science-pack": 153,
+            "utility-science-pack": 277
+          },
+          "processing_unit_launch_reserve": 0,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 34
+            },
+            "steel-plate": {
+              "working": 90,
+              "no_ingredients": 87,
+              "full_output": 5
+            },
+            "production-science-pack": {
+              "item_ingredient_shortage": 25
+            },
+            "utility-science-pack": {
+              "item_ingredient_shortage": 18
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        }
+      ],
+      "lab_samples_during_silo_research": {
+        "0-55": {
+          "samples": 35,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 40.029,
+            "logistic-science-pack": 8.086,
+            "production-science-pack": 19.029,
+            "utility-science-pack": 6.343
+          },
+          "peak_labs_low_or_no_power": 1
+        },
+        "55-65": {
+          "samples": 7,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 39.714,
+            "logistic-science-pack": 1.0,
+            "production-science-pack": 50.286,
+            "utility-science-pack": 12.286
+          },
+          "peak_labs_low_or_no_power": 0
+        },
+        "65-100": {
+          "samples": 24,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 27.542,
+            "logistic-science-pack": 0.0,
+            "production-science-pack": 53.333,
+            "utility-science-pack": 7.333
+          },
+          "peak_labs_low_or_no_power": 0
+        }
+      },
+      "latest_snapshot_sha256": "8aa93710777dd4bddac238681479b78f0997bc69d98b2c4e4ab8eaed00398db4",
+      "engine_log_sha256": "d144e8ffff07ba503709e90d566947e973deaeaf8ef25e8850e468fd4db8d3a3"
+    },
+    "combined-65": {
+      "input_map_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+      "version": "2.1.25",
+      "seed": 4263722700,
+      "origin_world_tick": 1354,
+      "latest_world_tick": 339829,
+      "current_research": null,
+      "research_progress": 0,
+      "events_world_tick": {
+        "research-start-rocket-silo": 288544,
+        "assembler-reassigned-to-processing-unit": 314074,
+        "research-done-rocket-silo": 328210,
+        "silo-placed": 329494,
+        "first-satellite": 328954,
+        "satellite-loaded": 330724,
+        "silo-status-create_rocket": 337188,
+        "launch-ordered": 338098,
+        "launch": 339260,
+        "cargo-pod-delivered": 339828,
+        "delivery": 339829
+      },
+      "events_world_time": {
+        "research-start-rocket-silo": "1:20:09.067",
+        "assembler-reassigned-to-processing-unit": "1:27:14.567",
+        "research-done-rocket-silo": "1:31:10.167",
+        "silo-placed": "1:31:31.567",
+        "first-satellite": "1:31:22.567",
+        "satellite-loaded": "1:31:52.067",
+        "silo-status-create_rocket": "1:33:39.800",
+        "launch-ordered": "1:33:54.967",
+        "launch": "1:34:14.333",
+        "cargo-pod-delivered": "1:34:23.800",
+        "delivery": "1:34:23.817"
+      },
+      "rocket_count": 1,
+      "satellite_count": 1,
+      "pad_science": 1000,
+      "delivery_count": 1000,
+      "pod_count": 1000,
+      "silo_parts": 0,
+      "terminal_materials_at_unlock": {
+        "processing-unit": {
+          "warehouse": 195,
+          "reserve": 793
+        },
+        "low-density-structure": {
+          "warehouse": 27,
+          "reserve": 1100
+        },
+        "rocket-fuel": {
+          "warehouse": 62,
+          "reserve": 1050
+        },
+        "solar-panel": {
+          "warehouse": 30,
+          "reserve": 95
+        },
+        "accumulator": {
+          "warehouse": 30,
+          "reserve": 76
+        },
+        "concrete": {
+          "warehouse": 1800,
+          "reserve": 1200
+        }
+      },
+      "released_processing_units_for_yellow": 415,
+      "silo_starvation_ticks": {
+        "processing-unit": 564,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "final_total_produced": {
+        "iron-plate": 466264,
+        "copper-cable": 446584,
+        "steel-plate": 42239,
+        "iron-gear-wheel": 37715,
+        "inserter": 6950,
+        "transport-belt": 7926,
+        "engine-unit": 4981,
+        "electric-engine-unit": 1124,
+        "electronic-circuit": 120213,
+        "advanced-circuit": 20153,
+        "processing-unit": 2432,
+        "sulfuric-acid": 78050,
+        "productivity-module": 775,
+        "chemical-science-pack": 3680,
+        "production-science-pack": 1863,
+        "utility-science-pack": 1458
+      },
+      "resource_samples": [
+        {
+          "world_tick": 307354,
+          "progress": 0.4980280677914067,
+          "active_labs": 57,
+          "steam_mw": 143.96549999999968,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 383714,
+            "copper-cable": 341286,
+            "steel-plate": 34915,
+            "iron-gear-wheel": 34039,
+            "inserter": 6457,
+            "transport-belt": 6976,
+            "engine-unit": 3737,
+            "electric-engine-unit": 562,
+            "electronic-circuit": 88293,
+            "advanced-circuit": 16180,
+            "processing-unit": 1560,
+            "sulfuric-acid": 59700,
+            "productivity-module": 560,
+            "chemical-science-pack": 2956,
+            "production-science-pack": 1203,
+            "utility-science-pack": 675
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9158,
+            "copper-cable": 10906,
+            "steel-plate": 858,
+            "iron-gear-wheel": 453,
+            "inserter": 173,
+            "transport-belt": 156,
+            "engine-unit": 144,
+            "electric-engine-unit": 54,
+            "electronic-circuit": 2867,
+            "advanced-circuit": 590,
+            "processing-unit": 43,
+            "sulfuric-acid": 2900,
+            "productivity-module": 36,
+            "chemical-science-pack": 84,
+            "production-science-pack": 72,
+            "utility-science-pack": 90
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4479,
+            "steel-plate": 1439,
+            "iron-gear-wheel": 0,
+            "inserter": 70,
+            "transport-belt": 161,
+            "engine-unit": 0,
+            "electric-engine-unit": 14,
+            "electronic-circuit": 0,
+            "advanced-circuit": 796,
+            "processing-unit": 397,
+            "sulfuric-acid": 4490,
+            "productivity-module": 29,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 0
+          },
+          "processing_unit_launch_reserve": 528,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 39,
+              "item_ingredient_shortage": 9
+            },
+            "processing-unit": {
+              "working": 8,
+              "item_ingredient_shortage": 17
+            },
+            "steel-plate": {
+              "working": 117,
+              "no_ingredients": 58,
+              "full_output": 7
+            },
+            "production-science-pack": {
+              "working": 11,
+              "item_ingredient_shortage": 14
+            },
+            "utility-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 3
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 310954,
+          "progress": 0.5807321511223287,
+          "active_labs": 52,
+          "steam_mw": 141.0525000000004,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 392924,
+            "copper-cable": 351960,
+            "steel-plate": 35814,
+            "iron-gear-wheel": 34461,
+            "inserter": 6611,
+            "transport-belt": 7108,
+            "engine-unit": 3887,
+            "electric-engine-unit": 616,
+            "electronic-circuit": 91069,
+            "advanced-circuit": 16749,
+            "processing-unit": 1601,
+            "sulfuric-acid": 61700,
+            "productivity-module": 604,
+            "chemical-science-pack": 3046,
+            "production-science-pack": 1272,
+            "utility-science-pack": 768
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9210,
+            "copper-cable": 10674,
+            "steel-plate": 899,
+            "iron-gear-wheel": 422,
+            "inserter": 154,
+            "transport-belt": 132,
+            "engine-unit": 150,
+            "electric-engine-unit": 54,
+            "electronic-circuit": 2776,
+            "advanced-circuit": 569,
+            "processing-unit": 41,
+            "sulfuric-acid": 2000,
+            "productivity-module": 44,
+            "chemical-science-pack": 90,
+            "production-science-pack": 69,
+            "utility-science-pack": 93
+          },
+          "warehouse": {
+            "iron-plate": 3,
+            "copper-cable": 4444,
+            "steel-plate": 1436,
+            "iron-gear-wheel": 5,
+            "inserter": 78,
+            "transport-belt": 147,
+            "engine-unit": 0,
+            "electric-engine-unit": 29,
+            "electronic-circuit": 0,
+            "advanced-circuit": 988,
+            "processing-unit": 336,
+            "sulfuric-acid": 3905,
+            "productivity-module": 50,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 9
+          },
+          "processing_unit_launch_reserve": 552,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 35,
+              "item_ingredient_shortage": 13
+            },
+            "processing-unit": {
+              "working": 12,
+              "item_ingredient_shortage": 13
+            },
+            "steel-plate": {
+              "working": 119,
+              "no_ingredients": 54,
+              "full_output": 9
+            },
+            "production-science-pack": {
+              "working": 12,
+              "item_ingredient_shortage": 13
+            },
+            "utility-science-pack": {
+              "working": 16,
+              "item_ingredient_shortage": 2
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 314554,
+          "progress": 0.662412645563226,
+          "active_labs": 57,
+          "steam_mw": 149.71049999999974,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 402087,
+            "copper-cable": 362718,
+            "steel-plate": 36723,
+            "iron-gear-wheel": 34902,
+            "inserter": 6762,
+            "transport-belt": 7260,
+            "engine-unit": 4032,
+            "electric-engine-unit": 672,
+            "electronic-circuit": 93949,
+            "advanced-circuit": 17335,
+            "processing-unit": 1661,
+            "sulfuric-acid": 63600,
+            "productivity-module": 604,
+            "chemical-science-pack": 3132,
+            "production-science-pack": 1368,
+            "utility-science-pack": 885
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9163,
+            "copper-cable": 10758,
+            "steel-plate": 909,
+            "iron-gear-wheel": 441,
+            "inserter": 151,
+            "transport-belt": 152,
+            "engine-unit": 145,
+            "electric-engine-unit": 56,
+            "electronic-circuit": 2880,
+            "advanced-circuit": 586,
+            "processing-unit": 60,
+            "sulfuric-acid": 1900,
+            "productivity-module": 0,
+            "chemical-science-pack": 86,
+            "production-science-pack": 96,
+            "utility-science-pack": 117
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4439,
+            "steel-plate": 1441,
+            "iron-gear-wheel": 10,
+            "inserter": 85,
+            "transport-belt": 155,
+            "engine-unit": 0,
+            "electric-engine-unit": 47,
+            "electronic-circuit": 0,
+            "advanced-circuit": 1150,
+            "processing-unit": 256,
+            "sulfuric-acid": 2775,
+            "productivity-module": 22,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 51
+          },
+          "processing_unit_launch_reserve": 616,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 47,
+              "item_ingredient_shortage": 1
+            },
+            "processing-unit": {
+              "working": 15,
+              "item_ingredient_shortage": 15
+            },
+            "steel-plate": {
+              "working": 114,
+              "no_ingredients": 59,
+              "full_output": 9
+            },
+            "production-science-pack": {
+              "working": 13,
+              "item_ingredient_shortage": 12
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 318154,
+          "progress": 0.748225600559366,
+          "active_labs": 60,
+          "steam_mw": 148.16550000000055,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 411294,
+            "copper-cable": 374076,
+            "steel-plate": 37547,
+            "iron-gear-wheel": 35326,
+            "inserter": 6789,
+            "transport-belt": 7282,
+            "engine-unit": 4176,
+            "electric-engine-unit": 725,
+            "electronic-circuit": 97482,
+            "advanced-circuit": 17861,
+            "processing-unit": 1740,
+            "sulfuric-acid": 65500,
+            "productivity-module": 622,
+            "chemical-science-pack": 3226,
+            "production-science-pack": 1449,
+            "utility-science-pack": 987
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9207,
+            "copper-cable": 11358,
+            "steel-plate": 824,
+            "iron-gear-wheel": 424,
+            "inserter": 27,
+            "transport-belt": 22,
+            "engine-unit": 144,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3533,
+            "advanced-circuit": 526,
+            "processing-unit": 79,
+            "sulfuric-acid": 1900,
+            "productivity-module": 18,
+            "chemical-science-pack": 94,
+            "production-science-pack": 81,
+            "utility-science-pack": 102
+          },
+          "warehouse": {
+            "iron-plate": 3,
+            "copper-cable": 4427,
+            "steel-plate": 1432,
+            "iron-gear-wheel": 262,
+            "inserter": 93,
+            "transport-belt": 158,
+            "engine-unit": 0,
+            "electric-engine-unit": 62,
+            "electronic-circuit": 1,
+            "advanced-circuit": 735,
+            "processing-unit": 195,
+            "sulfuric-acid": 1535,
+            "productivity-module": 10,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 58
+          },
+          "processing_unit_launch_reserve": 680,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 20,
+              "item_ingredient_shortage": 10
+            },
+            "steel-plate": {
+              "working": 112,
+              "no_ingredients": 62,
+              "full_output": 8
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 321754,
+          "progress": 0.8361998605553103,
+          "active_labs": 60,
+          "steam_mw": 148.59750000000045,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 420427,
+            "copper-cable": 386098,
+            "steel-plate": 38395,
+            "iron-gear-wheel": 35572,
+            "inserter": 6789,
+            "transport-belt": 7282,
+            "engine-unit": 4325,
+            "electric-engine-unit": 778,
+            "electronic-circuit": 101019,
+            "advanced-circuit": 18326,
+            "processing-unit": 1837,
+            "sulfuric-acid": 67500,
+            "productivity-module": 676,
+            "chemical-science-pack": 3316,
+            "production-science-pack": 1530,
+            "utility-science-pack": 1095
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9133,
+            "copper-cable": 12022,
+            "steel-plate": 848,
+            "iron-gear-wheel": 246,
+            "inserter": 0,
+            "transport-belt": 0,
+            "engine-unit": 149,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3537,
+            "advanced-circuit": 465,
+            "processing-unit": 97,
+            "sulfuric-acid": 2000,
+            "productivity-module": 54,
+            "chemical-science-pack": 90,
+            "production-science-pack": 81,
+            "utility-science-pack": 108
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4341,
+            "steel-plate": 1440,
+            "iron-gear-wheel": 359,
+            "inserter": 93,
+            "transport-belt": 158,
+            "engine-unit": 0,
+            "electric-engine-unit": 77,
+            "electronic-circuit": 1,
+            "advanced-circuit": 655,
+            "processing-unit": 194,
+            "sulfuric-acid": 305,
+            "productivity-module": 33,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 83
+          },
+          "processing_unit_launch_reserve": 702,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 47,
+              "item_ingredient_shortage": 1
+            },
+            "processing-unit": {
+              "working": 24,
+              "item_ingredient_shortage": 6
+            },
+            "steel-plate": {
+              "working": 124,
+              "no_ingredients": 52,
+              "full_output": 6
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 325354,
+          "progress": 0.9252818644402435,
+          "active_labs": 61,
+          "steam_mw": 147.67350000000064,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 429516,
+            "copper-cable": 398158,
+            "steel-plate": 39363,
+            "iron-gear-wheel": 35716,
+            "inserter": 6789,
+            "transport-belt": 7282,
+            "engine-unit": 4469,
+            "electric-engine-unit": 831,
+            "electronic-circuit": 104496,
+            "advanced-circuit": 18846,
+            "processing-unit": 1948,
+            "sulfuric-acid": 69350,
+            "productivity-module": 698,
+            "chemical-science-pack": 3414,
+            "production-science-pack": 1620,
+            "utility-science-pack": 1215
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9089,
+            "copper-cable": 12060,
+            "steel-plate": 968,
+            "iron-gear-wheel": 144,
+            "inserter": 0,
+            "transport-belt": 0,
+            "engine-unit": 144,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3477,
+            "advanced-circuit": 520,
+            "processing-unit": 111,
+            "sulfuric-acid": 1850,
+            "productivity-module": 22,
+            "chemical-science-pack": 98,
+            "production-science-pack": 90,
+            "utility-science-pack": 120
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 3667,
+            "steel-plate": 1441,
+            "iron-gear-wheel": 359,
+            "inserter": 93,
+            "transport-belt": 158,
+            "engine-unit": 0,
+            "electric-engine-unit": 91,
+            "electronic-circuit": 0,
+            "advanced-circuit": 680,
+            "processing-unit": 195,
+            "sulfuric-acid": 40,
+            "productivity-module": 24,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 112
+          },
+          "processing_unit_launch_reserve": 734,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 40,
+              "item_ingredient_shortage": 8
+            },
+            "processing-unit": {
+              "working": 25,
+              "item_ingredient_shortage": 5
+            },
+            "steel-plate": {
+              "working": 120,
+              "no_ingredients": 58,
+              "full_output": 4
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 18
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 328954,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 142.81500000000037,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 438680,
+            "copper-cable": 410218,
+            "steel-plate": 40276,
+            "iron-gear-wheel": 36044,
+            "inserter": 6803,
+            "transport-belt": 7344,
+            "engine-unit": 4619,
+            "electric-engine-unit": 884,
+            "electronic-circuit": 108089,
+            "advanced-circuit": 19399,
+            "processing-unit": 2059,
+            "sulfuric-acid": 71450,
+            "productivity-module": 716,
+            "chemical-science-pack": 3504,
+            "production-science-pack": 1707,
+            "utility-science-pack": 1326
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9164,
+            "copper-cable": 12060,
+            "steel-plate": 913,
+            "iron-gear-wheel": 328,
+            "inserter": 14,
+            "transport-belt": 62,
+            "engine-unit": 150,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3593,
+            "advanced-circuit": 553,
+            "processing-unit": 111,
+            "sulfuric-acid": 2100,
+            "productivity-module": 18,
+            "chemical-science-pack": 90,
+            "production-science-pack": 87,
+            "utility-science-pack": 111
+          },
+          "warehouse": {
+            "iron-plate": 181,
+            "copper-cable": 3445,
+            "steel-plate": 1466,
+            "iron-gear-wheel": 268,
+            "inserter": 107,
+            "transport-belt": 204,
+            "engine-unit": 0,
+            "electric-engine-unit": 115,
+            "electronic-circuit": 0,
+            "advanced-circuit": 409,
+            "processing-unit": 219,
+            "sulfuric-acid": 410,
+            "productivity-module": 19,
+            "chemical-science-pack": 20,
+            "production-science-pack": 12,
+            "utility-science-pack": 151
+          },
+          "processing_unit_launch_reserve": 483,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 23,
+              "item_ingredient_shortage": 11
+            },
+            "steel-plate": {
+              "working": 87,
+              "no_ingredients": 91,
+              "full_output": 4
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 18
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        },
+        {
+          "world_tick": 332554,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 134.50583333333398,
+          "steam_capacity_mw": 174.60000000000062,
+          "silo_parts": 42,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 447768,
+            "copper-cable": 422278,
+            "steel-plate": 40874,
+            "iron-gear-wheel": 36615,
+            "inserter": 6874,
+            "transport-belt": 7512,
+            "engine-unit": 4764,
+            "electric-engine-unit": 961,
+            "electronic-circuit": 112109,
+            "advanced-circuit": 19533,
+            "processing-unit": 2165,
+            "sulfuric-acid": 73250,
+            "productivity-module": 770,
+            "chemical-science-pack": 3600,
+            "production-science-pack": 1803,
+            "utility-science-pack": 1440
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9088,
+            "copper-cable": 12060,
+            "steel-plate": 598,
+            "iron-gear-wheel": 571,
+            "inserter": 71,
+            "transport-belt": 168,
+            "engine-unit": 145,
+            "electric-engine-unit": 77,
+            "electronic-circuit": 4020,
+            "advanced-circuit": 134,
+            "processing-unit": 106,
+            "sulfuric-acid": 1800,
+            "productivity-module": 54,
+            "chemical-science-pack": 96,
+            "production-science-pack": 96,
+            "utility-science-pack": 114
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 2829,
+            "steel-plate": 1445,
+            "iron-gear-wheel": 71,
+            "inserter": 178,
+            "transport-belt": 328,
+            "engine-unit": 51,
+            "electric-engine-unit": 192,
+            "electronic-circuit": 0,
+            "advanced-circuit": 263,
+            "processing-unit": 288,
+            "sulfuric-acid": 325,
+            "productivity-module": 73,
+            "chemical-science-pack": 116,
+            "production-science-pack": 108,
+            "utility-science-pack": 265
+          },
+          "processing_unit_launch_reserve": 0,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 27,
+              "item_ingredient_shortage": 7
+            },
+            "steel-plate": {
+              "working": 89,
+              "no_ingredients": 90,
+              "full_output": 3
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "item_ingredient_shortage": 12,
+              "working": 6
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        },
+        {
+          "world_tick": 336154,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 116.0408333333337,
+          "steam_capacity_mw": 174.60000000000062,
+          "silo_parts": 93,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 456948,
+            "copper-cable": 434338,
+            "steel-plate": 41543,
+            "iron-gear-wheel": 37149,
+            "inserter": 6936,
+            "transport-belt": 7768,
+            "engine-unit": 4885,
+            "electric-engine-unit": 1042,
+            "electronic-circuit": 116129,
+            "advanced-circuit": 19900,
+            "processing-unit": 2288,
+            "sulfuric-acid": 76100,
+            "productivity-module": 775,
+            "chemical-science-pack": 3680,
+            "production-science-pack": 1863,
+            "utility-science-pack": 1458
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9180,
+            "copper-cable": 12060,
+            "steel-plate": 669,
+            "iron-gear-wheel": 534,
+            "inserter": 62,
+            "transport-belt": 256,
+            "engine-unit": 121,
+            "electric-engine-unit": 81,
+            "electronic-circuit": 4020,
+            "advanced-circuit": 367,
+            "processing-unit": 123,
+            "sulfuric-acid": 2850,
+            "productivity-module": 5,
+            "chemical-science-pack": 80,
+            "production-science-pack": 60,
+            "utility-science-pack": 18
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 1849,
+            "steel-plate": 1450,
+            "iron-gear-wheel": 47,
+            "inserter": 240,
+            "transport-belt": 548,
+            "engine-unit": 91,
+            "electric-engine-unit": 273,
+            "electronic-circuit": 0,
+            "advanced-circuit": 350,
+            "processing-unit": 0,
+            "sulfuric-acid": 880,
+            "productivity-module": 78,
+            "chemical-science-pack": 196,
+            "production-science-pack": 168,
+            "utility-science-pack": 283
+          },
+          "processing_unit_launch_reserve": 0,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 31,
+              "item_ingredient_shortage": 3
+            },
+            "steel-plate": {
+              "working": 97,
+              "no_ingredients": 82,
+              "full_output": 3
+            },
+            "production-science-pack": {
+              "item_ingredient_shortage": 25
+            },
+            "utility-science-pack": {
+              "item_ingredient_shortage": 18
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        }
+      ],
+      "lab_samples_during_silo_research": {
+        "0-55": {
+          "samples": 35,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 39.343,
+            "logistic-science-pack": 7.771,
+            "production-science-pack": 26.143,
+            "utility-science-pack": 4.743
+          },
+          "peak_labs_low_or_no_power": 1
+        },
+        "55-65": {
+          "samples": 8,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 39.875,
+            "logistic-science-pack": 0.0,
+            "production-science-pack": 47.625,
+            "utility-science-pack": 5.375
+          },
+          "peak_labs_low_or_no_power": 0
+        },
+        "65-100": {
+          "samples": 23,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 31.652,
+            "logistic-science-pack": 0.0,
+            "production-science-pack": 44.522,
+            "utility-science-pack": 2.652
+          },
+          "peak_labs_low_or_no_power": 0
+        }
+      },
+      "latest_snapshot_sha256": "0838a6d83ad53a06a6f28347aaf3258f8eac2f7e54177229573f7294e861f768",
+      "engine_log_sha256": "b153c8ca6766803ae64c05a490454d1ad805397f5a2b29c2eb4ffc58e482633c"
+    },
+    "iron-55-01": {
+      "input_map_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+      "version": "2.1.25",
+      "seed": 4263722700,
+      "origin_world_tick": 1354,
+      "latest_world_tick": 339287,
+      "current_research": null,
+      "research_progress": 0,
+      "events_world_tick": {
+        "research-start-rocket-silo": 288544,
+        "assembler-reassigned-to-processing-unit": 314074,
+        "research-done-rocket-silo": 328210,
+        "silo-placed": 329494,
+        "first-satellite": 328954,
+        "satellite-loaded": 330724,
+        "silo-status-create_rocket": 336651,
+        "launch-ordered": 337556,
+        "launch": 338718,
+        "cargo-pod-delivered": 339286,
+        "delivery": 339287
+      },
+      "events_world_time": {
+        "research-start-rocket-silo": "1:20:09.067",
+        "assembler-reassigned-to-processing-unit": "1:27:14.567",
+        "research-done-rocket-silo": "1:31:10.167",
+        "silo-placed": "1:31:31.567",
+        "first-satellite": "1:31:22.567",
+        "satellite-loaded": "1:31:52.067",
+        "silo-status-create_rocket": "1:33:30.850",
+        "launch-ordered": "1:33:45.933",
+        "launch": "1:34:05.300",
+        "cargo-pod-delivered": "1:34:14.767",
+        "delivery": "1:34:14.783"
+      },
+      "rocket_count": 1,
+      "satellite_count": 1,
+      "pad_science": 1000,
+      "delivery_count": 1000,
+      "pod_count": 1000,
+      "silo_parts": 0,
+      "terminal_materials_at_unlock": {
+        "processing-unit": {
+          "warehouse": 195,
+          "reserve": 839
+        },
+        "low-density-structure": {
+          "warehouse": 27,
+          "reserve": 1100
+        },
+        "rocket-fuel": {
+          "warehouse": 62,
+          "reserve": 1050
+        },
+        "solar-panel": {
+          "warehouse": 30,
+          "reserve": 95
+        },
+        "accumulator": {
+          "warehouse": 30,
+          "reserve": 76
+        },
+        "concrete": {
+          "warehouse": 1800,
+          "reserve": 1200
+        }
+      },
+      "released_processing_units_for_yellow": 415,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "final_total_produced": {
+        "iron-plate": 464840,
+        "copper-cable": 446612,
+        "steel-plate": 41923,
+        "iron-gear-wheel": 37677,
+        "inserter": 6948,
+        "transport-belt": 7928,
+        "engine-unit": 4976,
+        "electric-engine-unit": 1113,
+        "electronic-circuit": 120465,
+        "advanced-circuit": 20185,
+        "processing-unit": 2448,
+        "sulfuric-acid": 78050,
+        "productivity-module": 775,
+        "chemical-science-pack": 3676,
+        "production-science-pack": 1863,
+        "utility-science-pack": 1458
+      },
+      "resource_samples": [
+        {
+          "world_tick": 307354,
+          "progress": 0.4980280677914067,
+          "active_labs": 57,
+          "steam_mw": 143.96549999999968,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 383714,
+            "copper-cable": 341286,
+            "steel-plate": 34915,
+            "iron-gear-wheel": 34039,
+            "inserter": 6457,
+            "transport-belt": 6976,
+            "engine-unit": 3737,
+            "electric-engine-unit": 562,
+            "electronic-circuit": 88293,
+            "advanced-circuit": 16180,
+            "processing-unit": 1560,
+            "sulfuric-acid": 59700,
+            "productivity-module": 560,
+            "chemical-science-pack": 2956,
+            "production-science-pack": 1203,
+            "utility-science-pack": 675
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9158,
+            "copper-cable": 10906,
+            "steel-plate": 858,
+            "iron-gear-wheel": 453,
+            "inserter": 173,
+            "transport-belt": 156,
+            "engine-unit": 144,
+            "electric-engine-unit": 54,
+            "electronic-circuit": 2867,
+            "advanced-circuit": 590,
+            "processing-unit": 43,
+            "sulfuric-acid": 2900,
+            "productivity-module": 36,
+            "chemical-science-pack": 84,
+            "production-science-pack": 72,
+            "utility-science-pack": 90
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4479,
+            "steel-plate": 1439,
+            "iron-gear-wheel": 0,
+            "inserter": 70,
+            "transport-belt": 161,
+            "engine-unit": 0,
+            "electric-engine-unit": 14,
+            "electronic-circuit": 0,
+            "advanced-circuit": 796,
+            "processing-unit": 397,
+            "sulfuric-acid": 4490,
+            "productivity-module": 29,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 0
+          },
+          "processing_unit_launch_reserve": 528,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 39,
+              "item_ingredient_shortage": 9
+            },
+            "processing-unit": {
+              "working": 8,
+              "item_ingredient_shortage": 17
+            },
+            "steel-plate": {
+              "working": 117,
+              "no_ingredients": 58,
+              "full_output": 7
+            },
+            "production-science-pack": {
+              "working": 11,
+              "item_ingredient_shortage": 14
+            },
+            "utility-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 3
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 310954,
+          "progress": 0.5807321511223287,
+          "active_labs": 52,
+          "steam_mw": 143.07750000000013,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 392924,
+            "copper-cable": 352070,
+            "steel-plate": 35808,
+            "iron-gear-wheel": 34458,
+            "inserter": 6617,
+            "transport-belt": 7112,
+            "engine-unit": 3887,
+            "electric-engine-unit": 616,
+            "electronic-circuit": 91314,
+            "advanced-circuit": 16747,
+            "processing-unit": 1602,
+            "sulfuric-acid": 61700,
+            "productivity-module": 604,
+            "chemical-science-pack": 3046,
+            "production-science-pack": 1272,
+            "utility-science-pack": 768
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9210,
+            "copper-cable": 10784,
+            "steel-plate": 893,
+            "iron-gear-wheel": 419,
+            "inserter": 160,
+            "transport-belt": 136,
+            "engine-unit": 150,
+            "electric-engine-unit": 54,
+            "electronic-circuit": 3021,
+            "advanced-circuit": 567,
+            "processing-unit": 42,
+            "sulfuric-acid": 2000,
+            "productivity-module": 44,
+            "chemical-science-pack": 90,
+            "production-science-pack": 69,
+            "utility-science-pack": 93
+          },
+          "warehouse": {
+            "iron-plate": 3,
+            "copper-cable": 4431,
+            "steel-plate": 1436,
+            "iron-gear-wheel": 16,
+            "inserter": 84,
+            "transport-belt": 151,
+            "engine-unit": 0,
+            "electric-engine-unit": 29,
+            "electronic-circuit": 1,
+            "advanced-circuit": 960,
+            "processing-unit": 336,
+            "sulfuric-acid": 3870,
+            "productivity-module": 50,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 9
+          },
+          "processing_unit_launch_reserve": 553,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 44,
+              "item_ingredient_shortage": 4
+            },
+            "processing-unit": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "steel-plate": {
+              "working": 107,
+              "no_ingredients": 66,
+              "full_output": 9
+            },
+            "production-science-pack": {
+              "working": 12,
+              "item_ingredient_shortage": 13
+            },
+            "utility-science-pack": {
+              "working": 16,
+              "item_ingredient_shortage": 2
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 314554,
+          "progress": 0.662412645563226,
+          "active_labs": 57,
+          "steam_mw": 150.25050000000047,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 402087,
+            "copper-cable": 363798,
+            "steel-plate": 36583,
+            "iron-gear-wheel": 34893,
+            "inserter": 6759,
+            "transport-belt": 7258,
+            "engine-unit": 4032,
+            "electric-engine-unit": 672,
+            "electronic-circuit": 94834,
+            "advanced-circuit": 17306,
+            "processing-unit": 1687,
+            "sulfuric-acid": 63650,
+            "productivity-module": 604,
+            "chemical-science-pack": 3132,
+            "production-science-pack": 1368,
+            "utility-science-pack": 885
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9163,
+            "copper-cable": 11728,
+            "steel-plate": 775,
+            "iron-gear-wheel": 435,
+            "inserter": 142,
+            "transport-belt": 146,
+            "engine-unit": 145,
+            "electric-engine-unit": 56,
+            "electronic-circuit": 3520,
+            "advanced-circuit": 559,
+            "processing-unit": 85,
+            "sulfuric-acid": 1950,
+            "productivity-module": 0,
+            "chemical-science-pack": 86,
+            "production-science-pack": 96,
+            "utility-science-pack": 117
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4447,
+            "steel-plate": 1441,
+            "iron-gear-wheel": 0,
+            "inserter": 82,
+            "transport-belt": 153,
+            "engine-unit": 0,
+            "electric-engine-unit": 47,
+            "electronic-circuit": 1,
+            "advanced-circuit": 1015,
+            "processing-unit": 258,
+            "sulfuric-acid": 2625,
+            "productivity-module": 22,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 51
+          },
+          "processing_unit_launch_reserve": 640,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 47,
+              "item_ingredient_shortage": 1
+            },
+            "processing-unit": {
+              "working": 22,
+              "item_ingredient_shortage": 8
+            },
+            "steel-plate": {
+              "working": 104,
+              "no_ingredients": 71,
+              "full_output": 7
+            },
+            "production-science-pack": {
+              "working": 13,
+              "item_ingredient_shortage": 12
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 318154,
+          "progress": 0.748225600559366,
+          "active_labs": 60,
+          "steam_mw": 148.1205000000006,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 411294,
+            "copper-cable": 375858,
+            "steel-plate": 37389,
+            "iron-gear-wheel": 35317,
+            "inserter": 6785,
+            "transport-belt": 7286,
+            "engine-unit": 4176,
+            "electric-engine-unit": 725,
+            "electronic-circuit": 98364,
+            "advanced-circuit": 17782,
+            "processing-unit": 1788,
+            "sulfuric-acid": 65500,
+            "productivity-module": 622,
+            "chemical-science-pack": 3226,
+            "production-science-pack": 1449,
+            "utility-science-pack": 987
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9207,
+            "copper-cable": 12060,
+            "steel-plate": 806,
+            "iron-gear-wheel": 424,
+            "inserter": 26,
+            "transport-belt": 28,
+            "engine-unit": 144,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3530,
+            "advanced-circuit": 476,
+            "processing-unit": 101,
+            "sulfuric-acid": 1850,
+            "productivity-module": 18,
+            "chemical-science-pack": 94,
+            "production-science-pack": 81,
+            "utility-science-pack": 102
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4345,
+            "steel-plate": 1432,
+            "iron-gear-wheel": 255,
+            "inserter": 89,
+            "transport-belt": 162,
+            "engine-unit": 0,
+            "electric-engine-unit": 62,
+            "electronic-circuit": 1,
+            "advanced-circuit": 554,
+            "processing-unit": 195,
+            "sulfuric-acid": 1280,
+            "productivity-module": 10,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 58
+          },
+          "processing_unit_launch_reserve": 728,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 22,
+              "item_ingredient_shortage": 8
+            },
+            "steel-plate": {
+              "working": 112,
+              "no_ingredients": 64,
+              "full_output": 6
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 321754,
+          "progress": 0.8361998605553103,
+          "active_labs": 60,
+          "steam_mw": 149.18250000000006,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 420427,
+            "copper-cable": 387918,
+            "steel-plate": 38233,
+            "iron-gear-wheel": 35570,
+            "inserter": 6785,
+            "transport-belt": 7286,
+            "engine-unit": 4325,
+            "electric-engine-unit": 778,
+            "electronic-circuit": 101895,
+            "advanced-circuit": 18253,
+            "processing-unit": 1889,
+            "sulfuric-acid": 67500,
+            "productivity-module": 676,
+            "chemical-science-pack": 3316,
+            "production-science-pack": 1530,
+            "utility-science-pack": 1095
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9133,
+            "copper-cable": 12060,
+            "steel-plate": 844,
+            "iron-gear-wheel": 253,
+            "inserter": 0,
+            "transport-belt": 0,
+            "engine-unit": 149,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3531,
+            "advanced-circuit": 471,
+            "processing-unit": 101,
+            "sulfuric-acid": 2000,
+            "productivity-module": 54,
+            "chemical-science-pack": 90,
+            "production-science-pack": 81,
+            "utility-science-pack": 108
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 3893,
+            "steel-plate": 1440,
+            "iron-gear-wheel": 359,
+            "inserter": 89,
+            "transport-belt": 162,
+            "engine-unit": 0,
+            "electric-engine-unit": 77,
+            "electronic-circuit": 1,
+            "advanced-circuit": 476,
+            "processing-unit": 195,
+            "sulfuric-acid": 45,
+            "productivity-module": 33,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 83
+          },
+          "processing_unit_launch_reserve": 753,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 47,
+              "item_ingredient_shortage": 1
+            },
+            "processing-unit": {
+              "working": 25,
+              "item_ingredient_shortage": 5
+            },
+            "steel-plate": {
+              "working": 125,
+              "no_ingredients": 53,
+              "full_output": 4
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 325354,
+          "progress": 0.9252818644402435,
+          "active_labs": 61,
+          "steam_mw": 147.31349999999978,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 429516,
+            "copper-cable": 399978,
+            "steel-plate": 39203,
+            "iron-gear-wheel": 35714,
+            "inserter": 6785,
+            "transport-belt": 7286,
+            "engine-unit": 4469,
+            "electric-engine-unit": 831,
+            "electronic-circuit": 105371,
+            "advanced-circuit": 18809,
+            "processing-unit": 1998,
+            "sulfuric-acid": 69400,
+            "productivity-module": 698,
+            "chemical-science-pack": 3414,
+            "production-science-pack": 1620,
+            "utility-science-pack": 1215
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9089,
+            "copper-cable": 12060,
+            "steel-plate": 970,
+            "iron-gear-wheel": 144,
+            "inserter": 0,
+            "transport-belt": 0,
+            "engine-unit": 144,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3476,
+            "advanced-circuit": 556,
+            "processing-unit": 109,
+            "sulfuric-acid": 1900,
+            "productivity-module": 22,
+            "chemical-science-pack": 98,
+            "production-science-pack": 90,
+            "utility-science-pack": 120
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 2952,
+            "steel-plate": 1441,
+            "iron-gear-wheel": 359,
+            "inserter": 89,
+            "transport-belt": 162,
+            "engine-unit": 0,
+            "electric-engine-unit": 91,
+            "electronic-circuit": 1,
+            "advanced-circuit": 551,
+            "processing-unit": 195,
+            "sulfuric-acid": 35,
+            "productivity-module": 24,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 112
+          },
+          "processing_unit_launch_reserve": 784,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 40,
+              "item_ingredient_shortage": 8
+            },
+            "processing-unit": {
+              "working": 24,
+              "item_ingredient_shortage": 6
+            },
+            "steel-plate": {
+              "working": 119,
+              "no_ingredients": 60,
+              "full_output": 3
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 18
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 328954,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 144.7350000000005,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 438680,
+            "copper-cable": 412038,
+            "steel-plate": 40108,
+            "iron-gear-wheel": 36045,
+            "inserter": 6793,
+            "transport-belt": 7346,
+            "engine-unit": 4619,
+            "electric-engine-unit": 885,
+            "electronic-circuit": 108959,
+            "advanced-circuit": 19392,
+            "processing-unit": 2104,
+            "sulfuric-acid": 71450,
+            "productivity-module": 716,
+            "chemical-science-pack": 3504,
+            "production-science-pack": 1707,
+            "utility-science-pack": 1326
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9164,
+            "copper-cable": 12060,
+            "steel-plate": 905,
+            "iron-gear-wheel": 331,
+            "inserter": 8,
+            "transport-belt": 60,
+            "engine-unit": 150,
+            "electric-engine-unit": 54,
+            "electronic-circuit": 3588,
+            "advanced-circuit": 583,
+            "processing-unit": 106,
+            "sulfuric-acid": 2050,
+            "productivity-module": 18,
+            "chemical-science-pack": 90,
+            "production-science-pack": 87,
+            "utility-science-pack": 111
+          },
+          "warehouse": {
+            "iron-plate": 183,
+            "copper-cable": 2507,
+            "steel-plate": 1496,
+            "iron-gear-wheel": 318,
+            "inserter": 97,
+            "transport-belt": 210,
+            "engine-unit": 0,
+            "electric-engine-unit": 116,
+            "electronic-circuit": 0,
+            "advanced-circuit": 324,
+            "processing-unit": 218,
+            "sulfuric-acid": 425,
+            "productivity-module": 19,
+            "chemical-science-pack": 20,
+            "production-science-pack": 12,
+            "utility-science-pack": 151
+          },
+          "processing_unit_launch_reserve": 529,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 23,
+              "item_ingredient_shortage": 11
+            },
+            "steel-plate": {
+              "working": 87,
+              "no_ingredients": 92,
+              "full_output": 3
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 18
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        },
+        {
+          "world_tick": 332554,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 139.80583333333428,
+          "steam_capacity_mw": 174.60000000000062,
+          "silo_parts": 42,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 447768,
+            "copper-cable": 424098,
+            "steel-plate": 40695,
+            "iron-gear-wheel": 36633,
+            "inserter": 6862,
+            "transport-belt": 7556,
+            "engine-unit": 4764,
+            "electric-engine-unit": 964,
+            "electronic-circuit": 112979,
+            "advanced-circuit": 19609,
+            "processing-unit": 2206,
+            "sulfuric-acid": 73300,
+            "productivity-module": 770,
+            "chemical-science-pack": 3596,
+            "production-science-pack": 1803,
+            "utility-science-pack": 1440
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9088,
+            "copper-cable": 12060,
+            "steel-plate": 587,
+            "iron-gear-wheel": 588,
+            "inserter": 69,
+            "transport-belt": 210,
+            "engine-unit": 145,
+            "electric-engine-unit": 79,
+            "electronic-circuit": 4020,
+            "advanced-circuit": 217,
+            "processing-unit": 102,
+            "sulfuric-acid": 1850,
+            "productivity-module": 54,
+            "chemical-science-pack": 92,
+            "production-science-pack": 96,
+            "utility-science-pack": 114
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 1415,
+            "steel-plate": 1444,
+            "iron-gear-wheel": 131,
+            "inserter": 166,
+            "transport-belt": 384,
+            "engine-unit": 52,
+            "electric-engine-unit": 195,
+            "electronic-circuit": 1,
+            "advanced-circuit": 283,
+            "processing-unit": 320,
+            "sulfuric-acid": 555,
+            "productivity-module": 73,
+            "chemical-science-pack": 112,
+            "production-science-pack": 108,
+            "utility-science-pack": 265
+          },
+          "processing_unit_launch_reserve": 9,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 26,
+              "item_ingredient_shortage": 8
+            },
+            "steel-plate": {
+              "working": 87,
+              "no_ingredients": 93,
+              "full_output": 2
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "item_ingredient_shortage": 12,
+              "working": 6
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        },
+        {
+          "world_tick": 336154,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 119.7358333333331,
+          "steam_capacity_mw": 174.60000000000062,
+          "silo_parts": 93,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 456948,
+            "copper-cable": 436158,
+            "steel-plate": 41357,
+            "iron-gear-wheel": 37197,
+            "inserter": 6930,
+            "transport-belt": 7776,
+            "engine-unit": 4889,
+            "electric-engine-unit": 1044,
+            "electronic-circuit": 116999,
+            "advanced-circuit": 19902,
+            "processing-unit": 2329,
+            "sulfuric-acid": 76150,
+            "productivity-module": 775,
+            "chemical-science-pack": 3676,
+            "production-science-pack": 1863,
+            "utility-science-pack": 1458
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9180,
+            "copper-cable": 12060,
+            "steel-plate": 662,
+            "iron-gear-wheel": 564,
+            "inserter": 68,
+            "transport-belt": 220,
+            "engine-unit": 125,
+            "electric-engine-unit": 80,
+            "electronic-circuit": 4020,
+            "advanced-circuit": 293,
+            "processing-unit": 123,
+            "sulfuric-acid": 2850,
+            "productivity-module": 5,
+            "chemical-science-pack": 80,
+            "production-science-pack": 60,
+            "utility-science-pack": 18
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 827,
+            "steel-plate": 1450,
+            "iron-gear-wheel": 66,
+            "inserter": 234,
+            "transport-belt": 560,
+            "engine-unit": 97,
+            "electric-engine-unit": 275,
+            "electronic-circuit": 0,
+            "advanced-circuit": 282,
+            "processing-unit": 2,
+            "sulfuric-acid": 185,
+            "productivity-module": 78,
+            "chemical-science-pack": 192,
+            "production-science-pack": 168,
+            "utility-science-pack": 283
+          },
+          "processing_unit_launch_reserve": 0,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 31,
+              "item_ingredient_shortage": 3
+            },
+            "steel-plate": {
+              "working": 92,
+              "no_ingredients": 88,
+              "full_output": 2
+            },
+            "production-science-pack": {
+              "item_ingredient_shortage": 25
+            },
+            "utility-science-pack": {
+              "item_ingredient_shortage": 18
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        }
+      ],
+      "lab_samples_during_silo_research": {
+        "0-55": {
+          "samples": 35,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 39.343,
+            "logistic-science-pack": 7.771,
+            "production-science-pack": 26.143,
+            "utility-science-pack": 4.743
+          },
+          "peak_labs_low_or_no_power": 1
+        },
+        "55-65": {
+          "samples": 8,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 39.875,
+            "logistic-science-pack": 0.0,
+            "production-science-pack": 47.625,
+            "utility-science-pack": 5.375
+          },
+          "peak_labs_low_or_no_power": 0
+        },
+        "65-100": {
+          "samples": 23,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 31.652,
+            "logistic-science-pack": 0.0,
+            "production-science-pack": 44.522,
+            "utility-science-pack": 2.652
+          },
+          "peak_labs_low_or_no_power": 0
+        }
+      },
+      "latest_snapshot_sha256": "abea3e622b3571c595016a718546f103254e50c1612854083781057b671c65da",
+      "engine_log_sha256": "d96d51cc1c22cba2c7fe86cc9a0e926d7b016e393dc9ffed9e249623e12268e2",
+      "lab_snapshots_equal_to_old_combined": true,
+      "count_labs_snapshots_total": 137,
+      "count_labs_snapshots_silo_research": 66,
+      "first_difference_from_combined_at_sample_world_tick": 310954,
+      "changed_final_totals_from_combined": {
+        "produced": {
+          "accumulator": -4,
+          "advanced-circuit": 32,
+          "battery": 27,
+          "chemical-science-pack": -4,
+          "coal": -321,
+          "copper-cable": 28,
+          "copper-ore": -902,
+          "copper-plate": -299,
+          "crude-oil": -3088.7633476257324,
+          "electric-engine-unit": -11,
+          "electric-mining-drill": 1,
+          "electronic-circuit": 252,
+          "engine-unit": -5,
+          "inserter": -2,
+          "iron-gear-wheel": -38,
+          "iron-ore": -1272,
+          "iron-plate": -1424,
+          "lab": -1,
+          "light-oil": -1875,
+          "low-density-structure": -20,
+          "petroleum-gas": -1765,
+          "plastic-bar": -260,
+          "processing-unit": 16,
+          "rocket-fuel": -12,
+          "solar-panel": -5,
+          "solid-fuel": -155,
+          "steam-engine": 1,
+          "steel-plate": -316,
+          "stone": -162,
+          "stone-brick": -62,
+          "transport-belt": 2
+        },
+        "consumed": {
+          "advanced-circuit": 30,
+          "battery": -20,
+          "coal": -263,
+          "copper-cable": 644,
+          "copper-ore": -298,
+          "copper-plate": -390,
+          "electronic-circuit": 282,
+          "engine-unit": -15,
+          "iron-gear-wheel": 146,
+          "iron-ore": -1380,
+          "iron-plate": -1338,
+          "plastic-bar": -156,
+          "solid-fuel": -187,
+          "steel-plate": -47,
+          "stone": -134,
+          "transport-belt": -4
+        }
+      },
+      "event_list_matches_55_01": true,
+      "full_final_snapshot_matches_55_01": true
+    },
+    "iron-55-02": {
+      "input_map_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+      "version": "2.1.25",
+      "seed": 4263722700,
+      "origin_world_tick": 1354,
+      "latest_world_tick": 339287,
+      "current_research": null,
+      "research_progress": 0,
+      "events_world_tick": {
+        "research-start-rocket-silo": 288544,
+        "assembler-reassigned-to-processing-unit": 314074,
+        "research-done-rocket-silo": 328210,
+        "silo-placed": 329494,
+        "first-satellite": 328954,
+        "satellite-loaded": 330724,
+        "silo-status-create_rocket": 336651,
+        "launch-ordered": 337556,
+        "launch": 338718,
+        "cargo-pod-delivered": 339286,
+        "delivery": 339287
+      },
+      "events_world_time": {
+        "research-start-rocket-silo": "1:20:09.067",
+        "assembler-reassigned-to-processing-unit": "1:27:14.567",
+        "research-done-rocket-silo": "1:31:10.167",
+        "silo-placed": "1:31:31.567",
+        "first-satellite": "1:31:22.567",
+        "satellite-loaded": "1:31:52.067",
+        "silo-status-create_rocket": "1:33:30.850",
+        "launch-ordered": "1:33:45.933",
+        "launch": "1:34:05.300",
+        "cargo-pod-delivered": "1:34:14.767",
+        "delivery": "1:34:14.783"
+      },
+      "rocket_count": 1,
+      "satellite_count": 1,
+      "pad_science": 1000,
+      "delivery_count": 1000,
+      "pod_count": 1000,
+      "silo_parts": 0,
+      "terminal_materials_at_unlock": {
+        "processing-unit": {
+          "warehouse": 195,
+          "reserve": 839
+        },
+        "low-density-structure": {
+          "warehouse": 27,
+          "reserve": 1100
+        },
+        "rocket-fuel": {
+          "warehouse": 62,
+          "reserve": 1050
+        },
+        "solar-panel": {
+          "warehouse": 30,
+          "reserve": 95
+        },
+        "accumulator": {
+          "warehouse": 30,
+          "reserve": 76
+        },
+        "concrete": {
+          "warehouse": 1800,
+          "reserve": 1200
+        }
+      },
+      "released_processing_units_for_yellow": 415,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "final_total_produced": {
+        "iron-plate": 464840,
+        "copper-cable": 446612,
+        "steel-plate": 41923,
+        "iron-gear-wheel": 37677,
+        "inserter": 6948,
+        "transport-belt": 7928,
+        "engine-unit": 4976,
+        "electric-engine-unit": 1113,
+        "electronic-circuit": 120465,
+        "advanced-circuit": 20185,
+        "processing-unit": 2448,
+        "sulfuric-acid": 78050,
+        "productivity-module": 775,
+        "chemical-science-pack": 3676,
+        "production-science-pack": 1863,
+        "utility-science-pack": 1458
+      },
+      "resource_samples": [
+        {
+          "world_tick": 307354,
+          "progress": 0.4980280677914067,
+          "active_labs": 57,
+          "steam_mw": 143.96549999999968,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 383714,
+            "copper-cable": 341286,
+            "steel-plate": 34915,
+            "iron-gear-wheel": 34039,
+            "inserter": 6457,
+            "transport-belt": 6976,
+            "engine-unit": 3737,
+            "electric-engine-unit": 562,
+            "electronic-circuit": 88293,
+            "advanced-circuit": 16180,
+            "processing-unit": 1560,
+            "sulfuric-acid": 59700,
+            "productivity-module": 560,
+            "chemical-science-pack": 2956,
+            "production-science-pack": 1203,
+            "utility-science-pack": 675
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9158,
+            "copper-cable": 10906,
+            "steel-plate": 858,
+            "iron-gear-wheel": 453,
+            "inserter": 173,
+            "transport-belt": 156,
+            "engine-unit": 144,
+            "electric-engine-unit": 54,
+            "electronic-circuit": 2867,
+            "advanced-circuit": 590,
+            "processing-unit": 43,
+            "sulfuric-acid": 2900,
+            "productivity-module": 36,
+            "chemical-science-pack": 84,
+            "production-science-pack": 72,
+            "utility-science-pack": 90
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4479,
+            "steel-plate": 1439,
+            "iron-gear-wheel": 0,
+            "inserter": 70,
+            "transport-belt": 161,
+            "engine-unit": 0,
+            "electric-engine-unit": 14,
+            "electronic-circuit": 0,
+            "advanced-circuit": 796,
+            "processing-unit": 397,
+            "sulfuric-acid": 4490,
+            "productivity-module": 29,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 0
+          },
+          "processing_unit_launch_reserve": 528,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 39,
+              "item_ingredient_shortage": 9
+            },
+            "processing-unit": {
+              "working": 8,
+              "item_ingredient_shortage": 17
+            },
+            "steel-plate": {
+              "working": 117,
+              "no_ingredients": 58,
+              "full_output": 7
+            },
+            "production-science-pack": {
+              "working": 11,
+              "item_ingredient_shortage": 14
+            },
+            "utility-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 3
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 310954,
+          "progress": 0.5807321511223287,
+          "active_labs": 52,
+          "steam_mw": 143.07750000000013,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 392924,
+            "copper-cable": 352070,
+            "steel-plate": 35808,
+            "iron-gear-wheel": 34458,
+            "inserter": 6617,
+            "transport-belt": 7112,
+            "engine-unit": 3887,
+            "electric-engine-unit": 616,
+            "electronic-circuit": 91314,
+            "advanced-circuit": 16747,
+            "processing-unit": 1602,
+            "sulfuric-acid": 61700,
+            "productivity-module": 604,
+            "chemical-science-pack": 3046,
+            "production-science-pack": 1272,
+            "utility-science-pack": 768
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9210,
+            "copper-cable": 10784,
+            "steel-plate": 893,
+            "iron-gear-wheel": 419,
+            "inserter": 160,
+            "transport-belt": 136,
+            "engine-unit": 150,
+            "electric-engine-unit": 54,
+            "electronic-circuit": 3021,
+            "advanced-circuit": 567,
+            "processing-unit": 42,
+            "sulfuric-acid": 2000,
+            "productivity-module": 44,
+            "chemical-science-pack": 90,
+            "production-science-pack": 69,
+            "utility-science-pack": 93
+          },
+          "warehouse": {
+            "iron-plate": 3,
+            "copper-cable": 4431,
+            "steel-plate": 1436,
+            "iron-gear-wheel": 16,
+            "inserter": 84,
+            "transport-belt": 151,
+            "engine-unit": 0,
+            "electric-engine-unit": 29,
+            "electronic-circuit": 1,
+            "advanced-circuit": 960,
+            "processing-unit": 336,
+            "sulfuric-acid": 3870,
+            "productivity-module": 50,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 9
+          },
+          "processing_unit_launch_reserve": 553,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 44,
+              "item_ingredient_shortage": 4
+            },
+            "processing-unit": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "steel-plate": {
+              "working": 107,
+              "no_ingredients": 66,
+              "full_output": 9
+            },
+            "production-science-pack": {
+              "working": 12,
+              "item_ingredient_shortage": 13
+            },
+            "utility-science-pack": {
+              "working": 16,
+              "item_ingredient_shortage": 2
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 314554,
+          "progress": 0.662412645563226,
+          "active_labs": 57,
+          "steam_mw": 150.25050000000047,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 402087,
+            "copper-cable": 363798,
+            "steel-plate": 36583,
+            "iron-gear-wheel": 34893,
+            "inserter": 6759,
+            "transport-belt": 7258,
+            "engine-unit": 4032,
+            "electric-engine-unit": 672,
+            "electronic-circuit": 94834,
+            "advanced-circuit": 17306,
+            "processing-unit": 1687,
+            "sulfuric-acid": 63650,
+            "productivity-module": 604,
+            "chemical-science-pack": 3132,
+            "production-science-pack": 1368,
+            "utility-science-pack": 885
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9163,
+            "copper-cable": 11728,
+            "steel-plate": 775,
+            "iron-gear-wheel": 435,
+            "inserter": 142,
+            "transport-belt": 146,
+            "engine-unit": 145,
+            "electric-engine-unit": 56,
+            "electronic-circuit": 3520,
+            "advanced-circuit": 559,
+            "processing-unit": 85,
+            "sulfuric-acid": 1950,
+            "productivity-module": 0,
+            "chemical-science-pack": 86,
+            "production-science-pack": 96,
+            "utility-science-pack": 117
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4447,
+            "steel-plate": 1441,
+            "iron-gear-wheel": 0,
+            "inserter": 82,
+            "transport-belt": 153,
+            "engine-unit": 0,
+            "electric-engine-unit": 47,
+            "electronic-circuit": 1,
+            "advanced-circuit": 1015,
+            "processing-unit": 258,
+            "sulfuric-acid": 2625,
+            "productivity-module": 22,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 51
+          },
+          "processing_unit_launch_reserve": 640,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 47,
+              "item_ingredient_shortage": 1
+            },
+            "processing-unit": {
+              "working": 22,
+              "item_ingredient_shortage": 8
+            },
+            "steel-plate": {
+              "working": 104,
+              "no_ingredients": 71,
+              "full_output": 7
+            },
+            "production-science-pack": {
+              "working": 13,
+              "item_ingredient_shortage": 12
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 318154,
+          "progress": 0.748225600559366,
+          "active_labs": 60,
+          "steam_mw": 148.1205000000006,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 411294,
+            "copper-cable": 375858,
+            "steel-plate": 37389,
+            "iron-gear-wheel": 35317,
+            "inserter": 6785,
+            "transport-belt": 7286,
+            "engine-unit": 4176,
+            "electric-engine-unit": 725,
+            "electronic-circuit": 98364,
+            "advanced-circuit": 17782,
+            "processing-unit": 1788,
+            "sulfuric-acid": 65500,
+            "productivity-module": 622,
+            "chemical-science-pack": 3226,
+            "production-science-pack": 1449,
+            "utility-science-pack": 987
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9207,
+            "copper-cable": 12060,
+            "steel-plate": 806,
+            "iron-gear-wheel": 424,
+            "inserter": 26,
+            "transport-belt": 28,
+            "engine-unit": 144,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3530,
+            "advanced-circuit": 476,
+            "processing-unit": 101,
+            "sulfuric-acid": 1850,
+            "productivity-module": 18,
+            "chemical-science-pack": 94,
+            "production-science-pack": 81,
+            "utility-science-pack": 102
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 4345,
+            "steel-plate": 1432,
+            "iron-gear-wheel": 255,
+            "inserter": 89,
+            "transport-belt": 162,
+            "engine-unit": 0,
+            "electric-engine-unit": 62,
+            "electronic-circuit": 1,
+            "advanced-circuit": 554,
+            "processing-unit": 195,
+            "sulfuric-acid": 1280,
+            "productivity-module": 10,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 58
+          },
+          "processing_unit_launch_reserve": 728,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 22,
+              "item_ingredient_shortage": 8
+            },
+            "steel-plate": {
+              "working": 112,
+              "no_ingredients": 64,
+              "full_output": 6
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 321754,
+          "progress": 0.8361998605553103,
+          "active_labs": 60,
+          "steam_mw": 149.18250000000006,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 420427,
+            "copper-cable": 387918,
+            "steel-plate": 38233,
+            "iron-gear-wheel": 35570,
+            "inserter": 6785,
+            "transport-belt": 7286,
+            "engine-unit": 4325,
+            "electric-engine-unit": 778,
+            "electronic-circuit": 101895,
+            "advanced-circuit": 18253,
+            "processing-unit": 1889,
+            "sulfuric-acid": 67500,
+            "productivity-module": 676,
+            "chemical-science-pack": 3316,
+            "production-science-pack": 1530,
+            "utility-science-pack": 1095
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9133,
+            "copper-cable": 12060,
+            "steel-plate": 844,
+            "iron-gear-wheel": 253,
+            "inserter": 0,
+            "transport-belt": 0,
+            "engine-unit": 149,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3531,
+            "advanced-circuit": 471,
+            "processing-unit": 101,
+            "sulfuric-acid": 2000,
+            "productivity-module": 54,
+            "chemical-science-pack": 90,
+            "production-science-pack": 81,
+            "utility-science-pack": 108
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 3893,
+            "steel-plate": 1440,
+            "iron-gear-wheel": 359,
+            "inserter": 89,
+            "transport-belt": 162,
+            "engine-unit": 0,
+            "electric-engine-unit": 77,
+            "electronic-circuit": 1,
+            "advanced-circuit": 476,
+            "processing-unit": 195,
+            "sulfuric-acid": 45,
+            "productivity-module": 33,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 83
+          },
+          "processing_unit_launch_reserve": 753,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 47,
+              "item_ingredient_shortage": 1
+            },
+            "processing-unit": {
+              "working": 25,
+              "item_ingredient_shortage": 5
+            },
+            "steel-plate": {
+              "working": 125,
+              "no_ingredients": 53,
+              "full_output": 4
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 17,
+              "item_ingredient_shortage": 1
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 325354,
+          "progress": 0.9252818644402435,
+          "active_labs": 61,
+          "steam_mw": 147.31349999999978,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": "rocket-silo",
+          "cumulative_produced": {
+            "iron-plate": 429516,
+            "copper-cable": 399978,
+            "steel-plate": 39203,
+            "iron-gear-wheel": 35714,
+            "inserter": 6785,
+            "transport-belt": 7286,
+            "engine-unit": 4469,
+            "electric-engine-unit": 831,
+            "electronic-circuit": 105371,
+            "advanced-circuit": 18809,
+            "processing-unit": 1998,
+            "sulfuric-acid": 69400,
+            "productivity-module": 698,
+            "chemical-science-pack": 3414,
+            "production-science-pack": 1620,
+            "utility-science-pack": 1215
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9089,
+            "copper-cable": 12060,
+            "steel-plate": 970,
+            "iron-gear-wheel": 144,
+            "inserter": 0,
+            "transport-belt": 0,
+            "engine-unit": 144,
+            "electric-engine-unit": 53,
+            "electronic-circuit": 3476,
+            "advanced-circuit": 556,
+            "processing-unit": 109,
+            "sulfuric-acid": 1900,
+            "productivity-module": 22,
+            "chemical-science-pack": 98,
+            "production-science-pack": 90,
+            "utility-science-pack": 120
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 2952,
+            "steel-plate": 1441,
+            "iron-gear-wheel": 359,
+            "inserter": 89,
+            "transport-belt": 162,
+            "engine-unit": 0,
+            "electric-engine-unit": 91,
+            "electronic-circuit": 1,
+            "advanced-circuit": 551,
+            "processing-unit": 195,
+            "sulfuric-acid": 35,
+            "productivity-module": 24,
+            "chemical-science-pack": 0,
+            "production-science-pack": 0,
+            "utility-science-pack": 112
+          },
+          "processing_unit_launch_reserve": 784,
+          "steel_plate_launch_reserve": 1025,
+          "status": {
+            "electronic-circuit": {
+              "working": 40,
+              "item_ingredient_shortage": 8
+            },
+            "processing-unit": {
+              "working": 24,
+              "item_ingredient_shortage": 6
+            },
+            "steel-plate": {
+              "working": 119,
+              "no_ingredients": 60,
+              "full_output": 3
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 18
+            }
+          },
+          "electric_circuit_iron_buffer": 0
+        },
+        {
+          "world_tick": 328954,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 144.7350000000005,
+          "steam_capacity_mw": 167.40000000000057,
+          "silo_parts": 0,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 438680,
+            "copper-cable": 412038,
+            "steel-plate": 40108,
+            "iron-gear-wheel": 36045,
+            "inserter": 6793,
+            "transport-belt": 7346,
+            "engine-unit": 4619,
+            "electric-engine-unit": 885,
+            "electronic-circuit": 108959,
+            "advanced-circuit": 19392,
+            "processing-unit": 2104,
+            "sulfuric-acid": 71450,
+            "productivity-module": 716,
+            "chemical-science-pack": 3504,
+            "production-science-pack": 1707,
+            "utility-science-pack": 1326
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9164,
+            "copper-cable": 12060,
+            "steel-plate": 905,
+            "iron-gear-wheel": 331,
+            "inserter": 8,
+            "transport-belt": 60,
+            "engine-unit": 150,
+            "electric-engine-unit": 54,
+            "electronic-circuit": 3588,
+            "advanced-circuit": 583,
+            "processing-unit": 106,
+            "sulfuric-acid": 2050,
+            "productivity-module": 18,
+            "chemical-science-pack": 90,
+            "production-science-pack": 87,
+            "utility-science-pack": 111
+          },
+          "warehouse": {
+            "iron-plate": 183,
+            "copper-cable": 2507,
+            "steel-plate": 1496,
+            "iron-gear-wheel": 318,
+            "inserter": 97,
+            "transport-belt": 210,
+            "engine-unit": 0,
+            "electric-engine-unit": 116,
+            "electronic-circuit": 0,
+            "advanced-circuit": 324,
+            "processing-unit": 218,
+            "sulfuric-acid": 425,
+            "productivity-module": 19,
+            "chemical-science-pack": 20,
+            "production-science-pack": 12,
+            "utility-science-pack": 151
+          },
+          "processing_unit_launch_reserve": 529,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 23,
+              "item_ingredient_shortage": 11
+            },
+            "steel-plate": {
+              "working": 87,
+              "no_ingredients": 92,
+              "full_output": 3
+            },
+            "production-science-pack": {
+              "working": 15,
+              "item_ingredient_shortage": 10
+            },
+            "utility-science-pack": {
+              "working": 18
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        },
+        {
+          "world_tick": 332554,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 139.80583333333428,
+          "steam_capacity_mw": 174.60000000000062,
+          "silo_parts": 42,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 447768,
+            "copper-cable": 424098,
+            "steel-plate": 40695,
+            "iron-gear-wheel": 36633,
+            "inserter": 6862,
+            "transport-belt": 7556,
+            "engine-unit": 4764,
+            "electric-engine-unit": 964,
+            "electronic-circuit": 112979,
+            "advanced-circuit": 19609,
+            "processing-unit": 2206,
+            "sulfuric-acid": 73300,
+            "productivity-module": 770,
+            "chemical-science-pack": 3596,
+            "production-science-pack": 1803,
+            "utility-science-pack": 1440
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9088,
+            "copper-cable": 12060,
+            "steel-plate": 587,
+            "iron-gear-wheel": 588,
+            "inserter": 69,
+            "transport-belt": 210,
+            "engine-unit": 145,
+            "electric-engine-unit": 79,
+            "electronic-circuit": 4020,
+            "advanced-circuit": 217,
+            "processing-unit": 102,
+            "sulfuric-acid": 1850,
+            "productivity-module": 54,
+            "chemical-science-pack": 92,
+            "production-science-pack": 96,
+            "utility-science-pack": 114
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 1415,
+            "steel-plate": 1444,
+            "iron-gear-wheel": 131,
+            "inserter": 166,
+            "transport-belt": 384,
+            "engine-unit": 52,
+            "electric-engine-unit": 195,
+            "electronic-circuit": 1,
+            "advanced-circuit": 283,
+            "processing-unit": 320,
+            "sulfuric-acid": 555,
+            "productivity-module": 73,
+            "chemical-science-pack": 112,
+            "production-science-pack": 108,
+            "utility-science-pack": 265
+          },
+          "processing_unit_launch_reserve": 9,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 26,
+              "item_ingredient_shortage": 8
+            },
+            "steel-plate": {
+              "working": 87,
+              "no_ingredients": 93,
+              "full_output": 2
+            },
+            "production-science-pack": {
+              "working": 14,
+              "item_ingredient_shortage": 11
+            },
+            "utility-science-pack": {
+              "item_ingredient_shortage": 12,
+              "working": 6
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        },
+        {
+          "world_tick": 336154,
+          "progress": 0,
+          "active_labs": 0,
+          "steam_mw": 119.7358333333331,
+          "steam_capacity_mw": 174.60000000000062,
+          "silo_parts": 93,
+          "research": null,
+          "cumulative_produced": {
+            "iron-plate": 456948,
+            "copper-cable": 436158,
+            "steel-plate": 41357,
+            "iron-gear-wheel": 37197,
+            "inserter": 6930,
+            "transport-belt": 7776,
+            "engine-unit": 4889,
+            "electric-engine-unit": 1044,
+            "electronic-circuit": 116999,
+            "advanced-circuit": 19902,
+            "processing-unit": 2329,
+            "sulfuric-acid": 76150,
+            "productivity-module": 775,
+            "chemical-science-pack": 3676,
+            "production-science-pack": 1863,
+            "utility-science-pack": 1458
+          },
+          "produced_last_game_minute": {
+            "iron-plate": 9180,
+            "copper-cable": 12060,
+            "steel-plate": 662,
+            "iron-gear-wheel": 564,
+            "inserter": 68,
+            "transport-belt": 220,
+            "engine-unit": 125,
+            "electric-engine-unit": 80,
+            "electronic-circuit": 4020,
+            "advanced-circuit": 293,
+            "processing-unit": 123,
+            "sulfuric-acid": 2850,
+            "productivity-module": 5,
+            "chemical-science-pack": 80,
+            "production-science-pack": 60,
+            "utility-science-pack": 18
+          },
+          "warehouse": {
+            "iron-plate": 0,
+            "copper-cable": 827,
+            "steel-plate": 1450,
+            "iron-gear-wheel": 66,
+            "inserter": 234,
+            "transport-belt": 560,
+            "engine-unit": 97,
+            "electric-engine-unit": 275,
+            "electronic-circuit": 0,
+            "advanced-circuit": 282,
+            "processing-unit": 2,
+            "sulfuric-acid": 185,
+            "productivity-module": 78,
+            "chemical-science-pack": 192,
+            "production-science-pack": 168,
+            "utility-science-pack": 283
+          },
+          "processing_unit_launch_reserve": 0,
+          "steel_plate_launch_reserve": 0,
+          "status": {
+            "electronic-circuit": {
+              "working": 48
+            },
+            "processing-unit": {
+              "working": 31,
+              "item_ingredient_shortage": 3
+            },
+            "steel-plate": {
+              "working": 92,
+              "no_ingredients": 88,
+              "full_output": 2
+            },
+            "production-science-pack": {
+              "item_ingredient_shortage": 25
+            },
+            "utility-science-pack": {
+              "item_ingredient_shortage": 18
+            }
+          },
+          "electric_circuit_iron_buffer": null
+        }
+      ],
+      "lab_samples_during_silo_research": {
+        "0-55": {
+          "samples": 35,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 39.343,
+            "logistic-science-pack": 7.771,
+            "production-science-pack": 26.143,
+            "utility-science-pack": 4.743
+          },
+          "peak_labs_low_or_no_power": 1
+        },
+        "55-65": {
+          "samples": 8,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 39.875,
+            "logistic-science-pack": 0.0,
+            "production-science-pack": 47.625,
+            "utility-science-pack": 5.375
+          },
+          "peak_labs_low_or_no_power": 0
+        },
+        "65-100": {
+          "samples": 23,
+          "mean_labs_missing_each_pack": {
+            "automation-science-pack": 0.0,
+            "chemical-science-pack": 31.652,
+            "logistic-science-pack": 0.0,
+            "production-science-pack": 44.522,
+            "utility-science-pack": 2.652
+          },
+          "peak_labs_low_or_no_power": 0
+        }
+      },
+      "latest_snapshot_sha256": "abea3e622b3571c595016a718546f103254e50c1612854083781057b671c65da",
+      "engine_log_sha256": "d703a10bc31e653bbce49129c26983e3dd724c8a9483fb1c751ff5f750e9ccb8",
+      "lab_snapshots_equal_to_old_combined": true,
+      "count_labs_snapshots_total": 137,
+      "count_labs_snapshots_silo_research": 66,
+      "first_difference_from_combined_at_sample_world_tick": 310954,
+      "changed_final_totals_from_combined": {
+        "produced": {
+          "accumulator": -4,
+          "advanced-circuit": 32,
+          "battery": 27,
+          "chemical-science-pack": -4,
+          "coal": -321,
+          "copper-cable": 28,
+          "copper-ore": -902,
+          "copper-plate": -299,
+          "crude-oil": -3088.7633476257324,
+          "electric-engine-unit": -11,
+          "electric-mining-drill": 1,
+          "electronic-circuit": 252,
+          "engine-unit": -5,
+          "inserter": -2,
+          "iron-gear-wheel": -38,
+          "iron-ore": -1272,
+          "iron-plate": -1424,
+          "lab": -1,
+          "light-oil": -1875,
+          "low-density-structure": -20,
+          "petroleum-gas": -1765,
+          "plastic-bar": -260,
+          "processing-unit": 16,
+          "rocket-fuel": -12,
+          "solar-panel": -5,
+          "solid-fuel": -155,
+          "steam-engine": 1,
+          "steel-plate": -316,
+          "stone": -162,
+          "stone-brick": -62,
+          "transport-belt": 2
+        },
+        "consumed": {
+          "advanced-circuit": 30,
+          "battery": -20,
+          "coal": -263,
+          "copper-cable": 644,
+          "copper-ore": -298,
+          "copper-plate": -390,
+          "electronic-circuit": 282,
+          "engine-unit": -15,
+          "iron-gear-wheel": 146,
+          "iron-ore": -1380,
+          "iron-plate": -1338,
+          "plastic-bar": -156,
+          "solid-fuel": -187,
+          "steel-plate": -47,
+          "stone": -134,
+          "transport-belt": -4
+        }
+      },
+      "event_list_matches_55_01": true,
+      "full_final_snapshot_matches_55_01": true
+    }
+  },
+  "packaged_reference_path": "4263722700_工数改善/reference/through-latest.json",
+  "artifact_note": "The kit includes the pinned candidate and its reference snapshot. The two named development runs predate the release-candidate replay."
+}

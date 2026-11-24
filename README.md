@@ -1,6 +1,12 @@
-# How to Have AI Beat Factorio in Under Two Hours
+# How to Have AI Beat Factorio in Under 1 Hour and 40 Minutes
 
 **English** · [日本語](README.ja.md) · [简体中文](README.zh-Hans.md)
+
+**New in v0.2.0-rc.1** — The fixed-seed, Lua-assisted base-game route reaches the first rocket ascent at **1:34:05.300** and delivers **1,000 space science packs at 1:34:14.783** in game time. This is the project best for Factorio 2.1.25. The kit includes a separate windowed route and manual launch checkpoint. [Release candidate replay kit](replay-kit/README.en.md) · [Releases](https://github.com/fukamidorl/factorio-ai-under-two-hours/releases).
+
+## Previous release v0.1.0
+
+The original launcher, instructions, and results below document the first public release.
 
 This project automates a satellite launch on a fresh **Factorio 2.1.25** base-game map with seed **4263722700**. It includes the map generation settings, a Lua mod that builds and supplies the factory, and a launcher for watching the run or checking it without a game window.
 

@@ -1,0 +1,907 @@
+{
+  "factorio_version": "2.1.25",
+  "build": 88022,
+  "seed": 4263722700,
+  "mode": "headless",
+  "start_world_tick": 1354,
+  "input_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+  "best": "lab-productivity",
+  "trials": [
+    {
+      "case": "baseline",
+      "run_id": "repro-20261124-a-001",
+      "change": "前回の再現済みルート",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 152569,
+        "research-done-chemical-science-pack": 180258,
+        "first-chemical-science-pack": 188554,
+        "research-done-mining-productivity-1": 203637,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 246154,
+        "research-start-rocket-silo": 288544,
+        "research-done-rocket-silo": 329205,
+        "silo-placed": 330514,
+        "first-completed-rocket-part": 330618,
+        "satellite-loaded": 331744,
+        "silo-status-create_rocket": 337671,
+        "launch-ordered": 338576,
+        "launch": 339738,
+        "cargo-pod-delivered": 340306,
+        "delivery": 340307
+      },
+      "delivery_delta_ticks": 0,
+      "engine_process_seconds": 387.004,
+      "world_generation_process_seconds": 1.743,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 195,
+        "reserve": 839
+      },
+      "science_produced": {
+        "automation-science-pack": 6892,
+        "logistic-science-pack": 6705,
+        "chemical-science-pack": 3706,
+        "production-science-pack": 1857,
+        "utility-science-pack": 1461
+      },
+      "science_consumed": {
+        "automation-science-pack": 6579,
+        "logistic-science-pack": 6379,
+        "chemical-science-pack": 3394,
+        "production-science-pack": 1637,
+        "utility-science-pack": 1035
+      },
+      "diagnostic_samples": {
+        "sample_count": 12,
+        "lowest_active_labs_during_silo": 51,
+        "max_steam_fraction_during_silo": 0.8905
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 180,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "control",
+      "run_id": "seed-4263722700",
+      "change": "研究所内の在庫・機械状態を記録",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 152569,
+        "research-done-chemical-science-pack": 180258,
+        "first-chemical-science-pack": 188554,
+        "research-done-mining-productivity-1": 203637,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 246154,
+        "research-start-rocket-silo": 288544,
+        "research-done-rocket-silo": 329205,
+        "silo-placed": 330514,
+        "first-completed-rocket-part": 330618,
+        "satellite-loaded": 331744,
+        "silo-status-create_rocket": 337671,
+        "launch-ordered": 338576,
+        "launch": 339738,
+        "cargo-pod-delivered": 340306,
+        "delivery": 340307
+      },
+      "delivery_delta_ticks": 0,
+      "engine_process_seconds": 378.525,
+      "world_generation_process_seconds": 1.78,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 195,
+        "reserve": 839
+      },
+      "science_produced": {
+        "automation-science-pack": 6892,
+        "logistic-science-pack": 6705,
+        "chemical-science-pack": 3706,
+        "production-science-pack": 1857,
+        "utility-science-pack": 1461
+      },
+      "science_consumed": {
+        "automation-science-pack": 6579,
+        "logistic-science-pack": 6379,
+        "chemical-science-pack": 3394,
+        "production-science-pack": 1637,
+        "utility-science-pack": 1035
+      },
+      "diagnostic_samples": {
+        "sample_count": 12,
+        "lowest_active_labs_during_silo": 51,
+        "max_steam_fraction_during_silo": 0.8905
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 180,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "early-iron",
+      "run_id": "seed-4263722700",
+      "change": "基礎設備の後に鉄掘削機を12基まで優先",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 93693,
+        "first-logistic-science-pack": 109354,
+        "research-done-automation-2": 113571,
+        "research-done-oil-processing": 146869,
+        "research-done-chemical-science-pack": 174288,
+        "first-chemical-science-pack": 181354,
+        "research-done-mining-productivity-1": 205257,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 242554,
+        "research-start-rocket-silo": 284494,
+        "research-done-rocket-silo": 346348,
+        "silo-placed": 347614,
+        "first-completed-rocket-part": 347718,
+        "satellite-loaded": 348904,
+        "silo-status-create_rocket": 354771,
+        "launch-ordered": 355679,
+        "launch": 356841,
+        "cargo-pod-delivered": 357409,
+        "delivery": 357410
+      },
+      "delivery_delta_ticks": 17103,
+      "engine_process_seconds": 416.409,
+      "world_generation_process_seconds": 1.826,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 433,
+        "reserve": 1310
+      },
+      "science_produced": {
+        "automation-science-pack": 7116,
+        "logistic-science-pack": 6928,
+        "chemical-science-pack": 4018,
+        "production-science-pack": 1794,
+        "utility-science-pack": 1407
+      },
+      "science_consumed": {
+        "automation-science-pack": 6828,
+        "logistic-science-pack": 6632,
+        "chemical-science-pack": 3644,
+        "production-science-pack": 1623,
+        "utility-science-pack": 1032
+      },
+      "diagnostic_samples": {
+        "sample_count": 17,
+        "lowest_active_labs_during_silo": 19,
+        "max_steam_fraction_during_silo": 0.7717
+      },
+      "additional_research_relative_to_baseline": [
+        "research-done-research-speed-3"
+      ],
+      "module_allocations": {
+        "stone": 30,
+        "iron": 0,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "early-iron-no-speed3",
+      "run_id": "seed-4263722700",
+      "change": "鉄先行案で任意の研究速度3を外す",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 93693,
+        "first-logistic-science-pack": 109354,
+        "research-done-automation-2": 113571,
+        "research-done-oil-processing": 146869,
+        "research-done-chemical-science-pack": 174288,
+        "first-chemical-science-pack": 181354,
+        "research-done-mining-productivity-1": 205257,
+        "first-production-science-pack": 231754,
+        "first-utility-science-pack": 238954,
+        "research-start-rocket-silo": 292234,
+        "research-done-rocket-silo": 352603,
+        "silo-placed": 355114,
+        "first-completed-rocket-part": 355278,
+        "satellite-loaded": 355144,
+        "silo-status-create_rocket": 368078,
+        "launch-ordered": 368984,
+        "launch": 370146,
+        "cargo-pod-delivered": 370714,
+        "delivery": 370715
+      },
+      "delivery_delta_ticks": 30408,
+      "engine_process_seconds": 439.268,
+      "world_generation_process_seconds": 1.86,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 829,
+        "reserve": 1310
+      },
+      "science_produced": {
+        "automation-science-pack": 6882,
+        "logistic-science-pack": 6675,
+        "chemical-science-pack": 3806,
+        "production-science-pack": 1773,
+        "utility-science-pack": 1446
+      },
+      "science_consumed": {
+        "automation-science-pack": 6573,
+        "logistic-science-pack": 6373,
+        "chemical-science-pack": 3389,
+        "production-science-pack": 1634,
+        "utility-science-pack": 1041
+      },
+      "diagnostic_samples": {
+        "sample_count": 17,
+        "lowest_active_labs_during_silo": 32,
+        "max_steam_fraction_during_silo": 0.7438
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 15,
+        "iron": 0,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "green-feed",
+      "run_id": "seed-4263722700",
+      "change": "工場段階2から緑パックの部材を優先",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 141529,
+        "research-done-chemical-science-pack": 170478,
+        "first-chemical-science-pack": 177754,
+        "research-done-mining-productivity-1": 193557,
+        "first-production-science-pack": 246154,
+        "first-utility-science-pack": 246154,
+        "research-start-rocket-silo": 282934,
+        "research-done-rocket-silo": 328224,
+        "silo-placed": 329494,
+        "first-completed-rocket-part": 329598,
+        "satellite-loaded": 330724,
+        "silo-status-create_rocket": 351138,
+        "launch-ordered": 352048,
+        "launch": 353210,
+        "cargo-pod-delivered": 353778,
+        "delivery": 353779
+      },
+      "delivery_delta_ticks": 13472,
+      "engine_process_seconds": 410.804,
+      "world_generation_process_seconds": 1.932,
+      "silo_starvation_ticks": {
+        "processing-unit": 14471,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 196,
+        "reserve": 192
+      },
+      "science_produced": {
+        "automation-science-pack": 6910,
+        "logistic-science-pack": 6713,
+        "chemical-science-pack": 3842,
+        "production-science-pack": 1848,
+        "utility-science-pack": 1353
+      },
+      "science_consumed": {
+        "automation-science-pack": 6572,
+        "logistic-science-pack": 6370,
+        "chemical-science-pack": 3394,
+        "production-science-pack": 1632,
+        "utility-science-pack": 1024
+      },
+      "diagnostic_samples": {
+        "sample_count": 12,
+        "lowest_active_labs_during_silo": 46,
+        "max_steam_fraction_during_silo": 0.822
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 47,
+        "iron": 0,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "green-until-oil",
+      "run_id": "seed-4263722700",
+      "change": "緑パック部材の優先を原油処理の解禁までに限定",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 141529,
+        "research-done-chemical-science-pack": 169518,
+        "first-chemical-science-pack": 177754,
+        "research-done-mining-productivity-1": 194637,
+        "first-production-science-pack": 224554,
+        "first-utility-science-pack": 267754,
+        "research-start-rocket-silo": 273754,
+        "research-done-rocket-silo": 324807,
+        "silo-placed": 326074,
+        "first-completed-rocket-part": 326178,
+        "satellite-loaded": 327304,
+        "silo-status-create_rocket": 342558,
+        "launch-ordered": 343457,
+        "launch": 344619,
+        "cargo-pod-delivered": 345187,
+        "delivery": 345188
+      },
+      "delivery_delta_ticks": 4881,
+      "engine_process_seconds": 385.648,
+      "world_generation_process_seconds": 1.771,
+      "silo_starvation_ticks": {
+        "processing-unit": 9327,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 195,
+        "reserve": 424
+      },
+      "science_produced": {
+        "automation-science-pack": 6891,
+        "logistic-science-pack": 6679,
+        "chemical-science-pack": 3822,
+        "production-science-pack": 1806,
+        "utility-science-pack": 1458
+      },
+      "science_consumed": {
+        "automation-science-pack": 6573,
+        "logistic-science-pack": 6374,
+        "chemical-science-pack": 3393,
+        "production-science-pack": 1633,
+        "utility-science-pack": 1043
+      },
+      "diagnostic_samples": {
+        "sample_count": 14,
+        "lowest_active_labs_during_silo": 30,
+        "max_steam_fraction_during_silo": 0.808
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 15,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "skip-mining-research",
+      "run_id": "seed-4263722700",
+      "change": "採掘生産性1の研究を省略",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 152569,
+        "research-done-chemical-science-pack": 180258,
+        "first-chemical-science-pack": 188554,
+        "research-done-mining-productivity-1": null,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 242554,
+        "research-start-rocket-silo": 286384,
+        "research-done-rocket-silo": 348497,
+        "silo-placed": 349774,
+        "first-completed-rocket-part": 349878,
+        "satellite-loaded": 351004,
+        "silo-status-create_rocket": 356931,
+        "launch-ordered": 357849,
+        "launch": 359011,
+        "cargo-pod-delivered": 359579,
+        "delivery": 359580
+      },
+      "delivery_delta_ticks": 19273,
+      "engine_process_seconds": 418.288,
+      "world_generation_process_seconds": 1.956,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 199,
+        "reserve": 1083
+      },
+      "science_produced": {
+        "automation-science-pack": 6637,
+        "logistic-science-pack": 6461,
+        "chemical-science-pack": 3584,
+        "production-science-pack": 2022,
+        "utility-science-pack": 1371
+      },
+      "science_consumed": {
+        "automation-science-pack": 6331,
+        "logistic-science-pack": 6132,
+        "chemical-science-pack": 3392,
+        "production-science-pack": 1655,
+        "utility-science-pack": 1035
+      },
+      "diagnostic_samples": {
+        "sample_count": 17,
+        "lowest_active_labs_during_silo": 16,
+        "max_steam_fraction_during_silo": 0.8203
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 180,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "blue",
+      "run_id": "audit-blue-engines46",
+      "change": "エンジンの組立機を36基から最大46基へ増設",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 152569,
+        "research-done-chemical-science-pack": 180258,
+        "first-chemical-science-pack": 188554,
+        "research-done-mining-productivity-1": 203637,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 246154,
+        "research-start-rocket-silo": 288664,
+        "research-done-rocket-silo": 337585,
+        "silo-placed": 338854,
+        "first-completed-rocket-part": 338958,
+        "satellite-loaded": 340084,
+        "silo-status-create_rocket": 346011,
+        "launch-ordered": 346929,
+        "launch": 348091,
+        "cargo-pod-delivered": 348659,
+        "delivery": 348660
+      },
+      "delivery_delta_ticks": 8353,
+      "engine_process_seconds": 396.813,
+      "world_generation_process_seconds": 1.792,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 196,
+        "reserve": 929
+      },
+      "science_produced": {
+        "automation-science-pack": 6875,
+        "logistic-science-pack": 6704,
+        "chemical-science-pack": 3596,
+        "production-science-pack": 2031,
+        "utility-science-pack": 1467
+      },
+      "science_consumed": {
+        "automation-science-pack": 6581,
+        "logistic-science-pack": 6382,
+        "chemical-science-pack": 3377,
+        "production-science-pack": 1652,
+        "utility-science-pack": 1046
+      },
+      "diagnostic_samples": {
+        "sample_count": 14,
+        "lowest_active_labs_during_silo": 32,
+        "max_steam_fraction_during_silo": 0.8731
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 183,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "blue-efficient",
+      "run_id": "audit-blue-engine-speed16",
+      "change": "既存エンジン組立機16基に在庫の速度1を転用",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 152569,
+        "research-done-chemical-science-pack": 180258,
+        "first-chemical-science-pack": 188554,
+        "research-done-mining-productivity-1": 203637,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 246154,
+        "research-start-rocket-silo": 288544,
+        "research-done-rocket-silo": 329065,
+        "silo-placed": 330334,
+        "first-completed-rocket-part": 330438,
+        "satellite-loaded": 331564,
+        "silo-status-create_rocket": 337491,
+        "launch-ordered": 338393,
+        "launch": 339555,
+        "cargo-pod-delivered": 340123,
+        "delivery": 340124
+      },
+      "delivery_delta_ticks": -183,
+      "engine_process_seconds": 370.439,
+      "world_generation_process_seconds": 1.942,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 195,
+        "reserve": 817
+      },
+      "science_produced": {
+        "automation-science-pack": 6892,
+        "logistic-science-pack": 6701,
+        "chemical-science-pack": 3738,
+        "production-science-pack": 1851,
+        "utility-science-pack": 1479
+      },
+      "science_consumed": {
+        "automation-science-pack": 6578,
+        "logistic-science-pack": 6378,
+        "chemical-science-pack": 3393,
+        "production-science-pack": 1635,
+        "utility-science-pack": 1037
+      },
+      "diagnostic_samples": {
+        "sample_count": 12,
+        "lowest_active_labs_during_silo": 50,
+        "max_steam_fraction_during_silo": 0.8954
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 180,
+        "laboratories": 0,
+        "engine_assemblers": 16,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "purple",
+      "run_id": "effort-purple-a-001",
+      "change": "紫組立機12基に生産力1を2個ずつ投入",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 152569,
+        "research-done-chemical-science-pack": 180258,
+        "first-chemical-science-pack": 188554,
+        "research-done-mining-productivity-1": 203637,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 246154,
+        "research-start-rocket-silo": 288544,
+        "research-done-rocket-silo": 328784,
+        "silo-placed": 330094,
+        "first-completed-rocket-part": 330198,
+        "satellite-loaded": 331324,
+        "silo-status-create_rocket": 337251,
+        "launch-ordered": 338171,
+        "launch": 339333,
+        "cargo-pod-delivered": 339901,
+        "delivery": 339902
+      },
+      "delivery_delta_ticks": -405,
+      "engine_process_seconds": 374.848,
+      "world_generation_process_seconds": 2.079,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 198,
+        "reserve": 834
+      },
+      "science_produced": {
+        "automation-science-pack": 6892,
+        "logistic-science-pack": 6714,
+        "chemical-science-pack": 3694,
+        "production-science-pack": 1893,
+        "utility-science-pack": 1458
+      },
+      "science_consumed": {
+        "automation-science-pack": 6576,
+        "logistic-science-pack": 6375,
+        "chemical-science-pack": 3394,
+        "production-science-pack": 1639,
+        "utility-science-pack": 1048
+      },
+      "diagnostic_samples": {
+        "sample_count": 11,
+        "lowest_active_labs_during_silo": 49,
+        "max_steam_fraction_during_silo": 0.8976
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 180,
+        "laboratories": 0,
+        "engine_assemblers": 0,
+        "purple_assemblers": 12
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "lab-productivity",
+      "run_id": "seed-4263722700",
+      "change": "研究所32基に生産力1を2個ずつ投入",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 152569,
+        "research-done-chemical-science-pack": 180258,
+        "first-chemical-science-pack": 188554,
+        "research-done-mining-productivity-1": 203637,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 246154,
+        "research-start-rocket-silo": 288544,
+        "research-done-rocket-silo": 328307,
+        "silo-placed": 329614,
+        "first-completed-rocket-part": 329718,
+        "satellite-loaded": 330844,
+        "silo-status-create_rocket": 336771,
+        "launch-ordered": 337693,
+        "launch": 338855,
+        "cargo-pod-delivered": 339423,
+        "delivery": 339424
+      },
+      "delivery_delta_ticks": -883,
+      "engine_process_seconds": 369.218,
+      "world_generation_process_seconds": 1.905,
+      "silo_starvation_ticks": {
+        "processing-unit": 29,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 196,
+        "reserve": 835
+      },
+      "science_produced": {
+        "automation-science-pack": 6892,
+        "logistic-science-pack": 6689,
+        "chemical-science-pack": 3694,
+        "production-science-pack": 1830,
+        "utility-science-pack": 1449
+      },
+      "science_consumed": {
+        "automation-science-pack": 6553,
+        "logistic-science-pack": 6352,
+        "chemical-science-pack": 3364,
+        "production-science-pack": 1610,
+        "utility-science-pack": 1022
+      },
+      "diagnostic_samples": {
+        "sample_count": 11,
+        "lowest_active_labs_during_silo": 55,
+        "max_steam_fraction_during_silo": 0.8942
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 180,
+        "laboratories": 64,
+        "engine_assemblers": 0,
+        "purple_assemblers": 0
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    },
+    {
+      "case": "combined",
+      "run_id": "seed-4263722700",
+      "change": "青のエンジン・紫の組立機・研究所の3案を併用",
+      "milestones": {
+        "mass-route-handoff": 30385,
+        "research-done-electric-mining-drill": 60438,
+        "research-done-logistic-science-pack": 94323,
+        "first-logistic-science-pack": 112954,
+        "research-done-automation-2": 118651,
+        "research-done-oil-processing": 152569,
+        "research-done-chemical-science-pack": 180258,
+        "first-chemical-science-pack": 188554,
+        "research-done-mining-productivity-1": 203637,
+        "first-production-science-pack": 235354,
+        "first-utility-science-pack": 246154,
+        "research-start-rocket-silo": 288544,
+        "research-done-rocket-silo": 328210,
+        "silo-placed": 329494,
+        "first-completed-rocket-part": 329598,
+        "satellite-loaded": 330724,
+        "silo-status-create_rocket": 337188,
+        "launch-ordered": 338098,
+        "launch": 339260,
+        "cargo-pod-delivered": 339828,
+        "delivery": 339829
+      },
+      "delivery_delta_ticks": -478,
+      "engine_process_seconds": 364.254,
+      "world_generation_process_seconds": 1.742,
+      "silo_starvation_ticks": {
+        "processing-unit": 564,
+        "low-density-structure": 29,
+        "rocket-fuel": 29
+      },
+      "control_boards_at_silo_unlock": {
+        "warehouse": 195,
+        "reserve": 793
+      },
+      "science_produced": {
+        "automation-science-pack": 6887,
+        "logistic-science-pack": 6696,
+        "chemical-science-pack": 3680,
+        "production-science-pack": 1863,
+        "utility-science-pack": 1458
+      },
+      "science_consumed": {
+        "automation-science-pack": 6556,
+        "logistic-science-pack": 6356,
+        "chemical-science-pack": 3360,
+        "production-science-pack": 1619,
+        "utility-science-pack": 1017
+      },
+      "diagnostic_samples": {
+        "sample_count": 11,
+        "lowest_active_labs_during_silo": 52,
+        "max_steam_fraction_during_silo": 0.9063
+      },
+      "additional_research_relative_to_baseline": [],
+      "module_allocations": {
+        "stone": 60,
+        "iron": 180,
+        "laboratories": 64,
+        "engine_assemblers": 16,
+        "purple_assemblers": 11
+      },
+      "native_ascent_to_delivery_ticks": 568,
+      "space_science": 1000
+    }
+  ],
+  "control_silo_labs_summaries": [
+    {
+      "range_percent": [
+        0,
+        25
+      ],
+      "samples": 13,
+      "average_labs_missing_pack": {
+        "automation-science-pack": 0,
+        "logistic-science-pack": 10.8,
+        "chemical-science-pack": 32.8,
+        "production-science-pack": 4.7,
+        "utility-science-pack": 6.2
+      },
+      "average_working_labs": 76,
+      "max_low_or_no_power_labs": 0
+    },
+    {
+      "range_percent": [
+        25,
+        65
+      ],
+      "samples": 30,
+      "average_labs_missing_pack": {
+        "automation-science-pack": 0,
+        "logistic-science-pack": 4.5,
+        "chemical-science-pack": 45.3,
+        "production-science-pack": 35.3,
+        "utility-science-pack": 8.8
+      },
+      "average_working_labs": 53.6,
+      "max_low_or_no_power_labs": 0
+    },
+    {
+      "range_percent": [
+        65,
+        100
+      ],
+      "samples": 25,
+      "average_labs_missing_pack": {
+        "automation-science-pack": 0,
+        "logistic-science-pack": 0,
+        "chemical-science-pack": 28.3,
+        "production-science-pack": 53.4,
+        "utility-science-pack": 7.9
+      },
+      "average_working_labs": 56.6,
+      "max_low_or_no_power_labs": 0
+    }
+  ],
+  "rechecks": [
+    {
+      "id": "recheck-01",
+      "delivery_world_tick": 339424,
+      "all_events_and_totals_match": true,
+      "engine_process_seconds": 358.33,
+      "snapshot_sha256": "8aa93710777dd4bddac238681479b78f0997bc69d98b2c4e4ab8eaed00398db4"
+    },
+    {
+      "id": "recheck-02",
+      "delivery_world_tick": 339424,
+      "all_events_and_totals_match": true,
+      "engine_process_seconds": 356.407,
+      "snapshot_sha256": "8aa93710777dd4bddac238681479b78f0997bc69d98b2c4e4ab8eaed00398db4"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "mode": "headless",
+  "baseline": {
+    "factorio_version": "2.1.25",
+    "factorio_build": 88022,
+    "seed": 4263722700,
+    "start_world_tick": 1354,
+    "input_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+    "route_manifest_sha256": "9080af647d3160cc434c353a6efeb7c319a1984988ead494bb7a41164294ca00",
+    "reference_sha256": "8aa93710777dd4bddac238681479b78f0997bc69d98b2c4e4ab8eaed00398db4"
+  },
+  "matched_replays": [
+    {
+      "schema_version": 1,
+      "id": "ai-fixed-20261124-a",
+      "state": "matched",
+      "reason": "verified",
+      "completed": true,
+      "mode": "headless",
+      "factorio_version": "2.1.25",
+      "factorio_build": 88022,
+      "seed": 4263722700,
+      "input_hash_match": true,
+      "route_manifest_match": true,
+      "verified_event_count": 211,
+      "delivery_world_tick": 339424,
+      "delivery_world_time": "1:34:17.067",
+      "rockets": 1,
+      "satellites": 1,
+      "silo_parts": 0,
+      "landing_pad_space_science": 1000,
+      "events": {
+        "launch-ordered": 337693,
+        "launch": 338855,
+        "cargo-pod-delivered": 339423,
+        "delivery": 339424
+      },
+      "timing_s": {
+        "world_generation_process_seconds": 1.753,
+        "factorio_process_seconds": 373.878,
+        "launcher_wall_seconds": 375.891,
+        "verifier_wall_seconds": 0.141
+      },
+      "matrix_wall_seconds": 376.235
+    },
+    {
+      "schema_version": 1,
+      "id": "ai-fixed-20261124-b",
+      "state": "matched",
+      "reason": "verified",
+      "completed": true,
+      "mode": "headless",
+      "factorio_version": "2.1.25",
+      "factorio_build": 88022,
+      "seed": 4263722700,
+      "input_hash_match": true,
+      "route_manifest_match": true,
+      "verified_event_count": 211,
+      "delivery_world_tick": 339424,
+      "delivery_world_time": "1:34:17.067",
+      "rockets": 1,
+      "satellites": 1,
+      "silo_parts": 0,
+      "landing_pad_space_science": 1000,
+      "events": {
+        "launch-ordered": 337693,
+        "launch": 338855,
+        "cargo-pod-delivered": 339423,
+        "delivery": 339424
+      },
+      "timing_s": {
+        "world_generation_process_seconds": 1.801,
+        "factorio_process_seconds": 374.388,
+        "launcher_wall_seconds": 376.453,
+        "verifier_wall_seconds": 0.109
+      },
+      "matrix_wall_seconds": 376.797
+    }
+  ],
+  "relocation_test": {
+    "source": "Copied runtime and verifier into a new folder whose name contains spaces.",
+    "starting_map": "Generated in this replay using the included settings.",
+    "started": "2026-11-24T13:02:34+00:00",
+    "finished": "2026-11-24T13:09:07+00:00",
+    "result": {
+      "schema_version": 1,
+      "id": "stage5-portable-replay",
+      "state": "matched",
+      "reason": "verified",
+      "completed": true,
+      "mode": "headless",
+      "factorio_version": "2.1.25",
+      "factorio_build": 88022,
+      "seed": 4263722700,
+      "input_hash_match": true,
+      "route_manifest_match": true,
+      "verified_event_count": 211,
+      "delivery_world_tick": 339424,
+      "delivery_world_time": "1:34:17.067",
+      "rockets": 1,
+      "satellites": 1,
+      "silo_parts": 0,
+      "landing_pad_space_science": 1000,
+      "events": {
+        "launch-ordered": 337693,
+        "launch": 338855,
+        "cargo-pod-delivered": 339423,
+        "delivery": 339424
+      },
+      "timing_s": {
+        "world_generation_process_seconds": 2.531,
+        "factorio_process_seconds": 389.052,
+        "launcher_wall_seconds": 391.844,
+        "verifier_wall_seconds": 0.125
+      },
+      "matrix_wall_seconds": 392.187
+    }
+  }
+}

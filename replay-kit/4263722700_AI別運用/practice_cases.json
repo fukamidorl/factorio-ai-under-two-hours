@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "case-01",
+      "status": {
+        "state": "matched",
+        "route_manifest_match": true,
+        "factorio_version": "2.1.25",
+        "factorio_build": 88022,
+        "seed": 4263722700,
+        "rockets": 1,
+        "satellites": 1,
+        "completed": true,
+        "input_hash_match": true,
+        "events": {
+          "launch": 338718,
+          "cargo-pod-delivered": 339286,
+          "delivery": 339287,
+          "launch-ordered": 337556
+        },
+        "delivery_world_tick": 339287,
+        "delivery_world_time": "1:34:14.783",
+        "landing_pad_space_science": 1000
+      },
+      "expected": "report_success"
+    },
+    {
+      "id": "case-02",
+      "status": {
+        "state": "running",
+        "process_finished": false,
+        "report_exit": 0,
+        "latest_event": "research"
+      },
+      "expected": "wait"
+    },
+    {
+      "id": "case-03",
+      "status": {
+        "state": "failed",
+        "reason": "The generated initial world hash differs from the pinned hash.",
+        "input_hash_match": false
+      },
+      "expected": "stop_check_input"
+    },
+    {
+      "id": "case-04",
+      "status": {
+        "state": "incomplete",
+        "report_exit": 0,
+        "world_ticks": {
+          "launch": 338718
+        },
+        "satellites": 1,
+        "reason": "Cargo delivery, pad inventory, and a final verification result are missing."
+      },
+      "expected": "hold_for_evidence"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "release_candidate_label": "v0.2.0-rc.1",
+  "verified_on_jst": "2026-11-25",
+  "scope": "Fixed-seed Lua-assisted project benchmark, in-game world time. Separate recorded visual and manual routes.",
+  "headless_inputs_identical_to_verified_extraction": true,
+  "headless_pinned_runtime_and_reference_files": 35,
+  "headless_prior_trial_count": 2,
+  "headless_additional_packaging_replay": {
+    "command": "python ./4263722700_AI別運用/operate.py replay --id release-verify-01",
+    "fresh_extracted_runtime": true,
+    "status": {
+      "schema_version": 1,
+      "id": "release-verify-01",
+      "state": "matched",
+      "reason": "verified",
+      "completed": true,
+      "mode": "headless",
+      "factorio_version": "2.1.25",
+      "factorio_build": 88022,
+      "seed": 4263722700,
+      "input_hash_match": true,
+      "route_manifest_match": true,
+      "verified_event_count": 223,
+      "delivery_world_tick": 339287,
+      "delivery_world_time": "1:34:14.783",
+      "rockets": 1,
+      "satellites": 1,
+      "silo_parts": 0,
+      "landing_pad_space_science": 1000,
+      "events": {
+        "launch-ordered": 337556,
+        "launch": 338718,
+        "cargo-pod-delivered": 339286,
+        "delivery": 339287
+      },
+      "timing_s": {
+        "world_generation_process_seconds": 2.002,
+        "factorio_process_seconds": 383.156,
+        "launcher_wall_seconds": 385.438,
+        "verifier_wall_seconds": 0.156
+      },
+      "matrix_wall_seconds": 385.812
+    },
+    "verifier": {
+      "schema_version": 1,
+      "run_id": "release-verify-01-001",
+      "state": "matched",
+      "reason": "All process, input, event, and inventory evidence matches.",
+      "route_manifest_sha256": "9d7fbb0e9e81b899c9a3a1dcccf2407ef6982fdc8adafcce53971066e5d38127",
+      "input_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+      "factorio_version": "2.1.25",
+      "factorio_build": 88022,
+      "seed": 4263722700,
+      "world_ticks": {
+        "satellite-loaded": 330724,
+        "launch-ordered": 337556,
+        "launch": 338718,
+        "cargo-pod-delivered": 339286,
+        "delivery": 339287
+      },
+      "event_count": 223,
+      "produced_count": 49,
+      "consumed_count": 45,
+      "factorio_process_seconds": 383.156,
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000,
+      "silo_parts": 0
+    },
+    "full_snapshot_matched": true
+  },
+  "timing_history": "evidence/timing-history.json",
+  "visual_route": {
+    "runtime_byte_identical_to_prior_kit": true,
+    "evidence": "evidence/visible-delivery-report.json",
+    "ascent_world_tick": 346585,
+    "delivery_world_tick": 347154,
+    "pad_space_science": 1000
+  },
+  "manual_save": {
+    "byte_identical_to_previously_tested_neutral_save": true,
+    "new_steam_achievement_unlock_confirmed_on_this_save": false,
+    "evidence": "evidence/neutral-manual-handoff.json",
+    "older_separate_steam_unlock_evidence": "evidence/steam-recheck.json"
+  },
+  "development": {
+    "chat_configuration": "ChatGPT Codex GPT-6.2 Sol / ultra",
+    "account_weekly_allowance_used_percent_user_reported_approx": 43,
+    "count_window_jst": [
+      "2026-11-22",
+      "2026-11-25"
+    ],
+    "count_at_previous_candidate": 692,
+    "test_save_count_at_previous_candidate": 106,
+    "additional_test_save_starts_for_release_preflight": 1,
+    "documented_gameplay_replay_and_inspection_starts": 693,
+    "formal_scripted_test_save_starts_included": 107
+  }
+}

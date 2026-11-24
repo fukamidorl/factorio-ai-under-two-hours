@@ -3,3 +3,6 @@
 /run_route.py -text
 /mod/** -text
 /world/** -text
+
+# Preserve the checked release bytes in the replay kit.
+/replay-kit/** -text

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "scope": "same seed and initial map, headless, Factorio base game 2.1.25 build 88022",
+  "seed": 4263722700,
+  "input_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+  "ticks_per_game_second": 60,
+  "baseline_before_100_minute_project": {
+    "launch_world_tick": 398432,
+    "launch_world_time": "1:50:40.533",
+    "delivery_world_tick": 399001,
+    "delivery_world_time": "1:50:50.017",
+    "pad_space_science": 1000
+  },
+  "release_candidate": {
+    "launch_world_tick": 338718,
+    "launch_world_time": "1:34:05.300",
+    "delivery_world_tick": 339287,
+    "delivery_world_time": "1:34:14.783",
+    "pad_space_science": 1000
+  },
+  "improvement_ticks": 59714,
+  "improvement_seconds": 995.233
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "seed": 4263722700,
+  "factorio_version": "2.1.25",
+  "factorio_build": 88022,
+  "distribution": "Steam",
+  "tested_original_zip_name": "4263722700_再現キット_作業草案.zip",
+  "tested_original_zip_sha256": "6c2dcd1081993a065403fefc1001af4c659154abeb3d8b14ef4341ea89b7a31d",
+  "initial_world_sha256": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+  "original_visible_manifest_sha256": "105f37293ae354ddb5b739cc6e157ce08154e78c8c7dc41a4d16c9cb3976d3e5",
+  "world_ticks": {
+    "launch-ordered": 345423,
+    "launch": 346585,
+    "victory": 346586,
+    "cargo-pod-delivered": 347153,
+    "delivery": 347154
+  },
+  "world_times": {
+    "launch-ordered": "1:35:57.050",
+    "launch": "1:36:16.417",
+    "victory": "1:36:16.433",
+    "cargo-pod-delivered": "1:36:25.883",
+    "delivery": "1:36:25.900"
+  },
+  "previous_visible_milestones_match": true,
+  "previous_visible_full_event_set_match": true,
+  "previous_visible_production_match": true,
+  "previous_visible_consumption_match": true,
+  "event_count": 212,
+  "count_rockets": 1,
+  "count_satellites": 1,
+  "next_rocket_parts": 0,
+  "landing_pad_space_science": 1000,
+  "factorio_log_seconds_at_delivery_autosave": 1177.832,
+  "ui": {
+    "victory_screen_play_time": "01:36:16",
+    "victory_observed_at_utc": "2026-11-24T13:32:10.592Z",
+    "continue_input_at_utc": "2026-11-24T13:32:10.593Z",
+    "replay_agent_game_inputs": [
+      "Continue after victory"
+    ]
+  },
+  "original_native_capture": {
+    "status": "failed_after_delivery",
+    "error": "__first-rocket-route-check__/capture.lua:20: attempt to index local 'p' (a nil value)"
+  },
+  "corrected_native_capture": {
+    "delivered_save_sha256": "0218eb6f27d86dacd459d57b0c5d5247dd8a64ba075586292efea8d5a16be4d4",
+    "world_tick": 347155,
+    "entity_count": 5588,
+    "labs": 96,
+    "space_science": 1000,
+    "physical_links_by_kind": {
+      "pipe": 587
+    },
+    "link_query_failures": {},
+    "images": {
+      "overview": {
+        "name": "factory-overview.png",
+        "width": 4096,
+        "height": 3008,
+        "bytes": 27382400,
+        "sha256": "2736d1ffc4d17dcfe3ca1c8d3891c3d2842fbc0aca57a9b8b20214b77ae0a8e3"
+      },
+      "labs": {
+        "name": "factory-labs.png",
+        "width": 2304,
+        "height": 1536,
+        "bytes": 8393203,
+        "sha256": "fecb7edca91edf6058bae4647103ace1304b8e2146a3ff6abce589acf4067379"
+      },
+      "terminal": {
+        "name": "factory-terminal.png",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 6647676,
+        "sha256": "b2d5150512747bbf24eb79afce71f5d18dba845ebe57e822e0ad2b8a54c2cf3f"
+      }
+    },
+    "capture_lua_sha256": "29ae95dc4629ee18d5e7174338dec874fea7b837cb048c8767506f04dc196b64",
+    "capture_runtime_manifest_sha256": "71db3dafd5cfd100fd89b6f7f86e46dc6f6adcbdf3fe79e09fd5e1501419ecce"
+  }
+}

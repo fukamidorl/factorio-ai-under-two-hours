@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "validated_on_jst": "2026-11-24",
+  "seed": 4263722700,
+  "factorio_version": "2.1.25",
+  "factorio_build": 88022,
+  "edition": "steam",
+  "steam_api_initialized": true,
+  "loaded_mods": {
+    "core": "0.0.0",
+    "base": "2.1.25"
+  },
+  "checkpoint": "4263722700-manual-operator-ready.zip",
+  "checkpoint_sha256": "0d94f770cb036e984bf85a3f9254e2503d093fd0c0f0b33360e59da171e6ae17",
+  "checkpoint_world_tick": 345403,
+  "reset": {
+    "method": "Factorio main menu > Settings > Other > Delete achievements",
+    "confirmed_by_user": true,
+    "input_at_utc": "2026-11-24T12:48:05.546Z",
+    "steam_zero_counts_observed_at_utc": "2026-11-24T12:49:41.614Z",
+    "steam_base_game": {
+      "earned": 0,
+      "total": 59
+    },
+    "steam_space_age": {
+      "earned": 0,
+      "total": 29
+    },
+    "previous_spoon_unlock_at_jst": "2026-11-22T21:02+09:00"
+  },
+  "after_checkpoint_load_before_launch": {
+    "load_input_at_utc": "2026-11-24T12:50:07.312Z",
+    "loaded_without_mod_sync": true,
+    "spoon_in_game": "unearned, eligible and displaying time remaining",
+    "spoon_in_game_observed_at_utc": "2026-11-24T12:51:23.228Z",
+    "in_game_base_achievements_earned": 8,
+    "rocket_ready": true,
+    "satellite_in_rocket": 1,
+    "auto_launch": false
+  },
+  "after_launch": {
+    "manual_launch_input_at_utc": "2026-11-24T12:52:05.535Z",
+    "victory_screen_game_time": "01:38:14",
+    "spoon_in_game": "unlock notification and obtained badge observed",
+    "spoon_in_game_observed_at_utc": "2026-11-24T12:52:53.851Z",
+    "in_game_base_achievements_earned": 13,
+    "space_science_in_cargo_pad": {
+      "display": "1.0k",
+      "quantity_from_one_satellite": 1000
+    },
+    "steam_checked_after_normal_game_shutdown": true,
+    "steam_new_unlock_observed_at_utc": "2026-11-24T12:56:04.993Z",
+    "steam_base_game": {
+      "earned": 13,
+      "total": 59
+    },
+    "steam_space_age": {
+      "earned": 0,
+      "total": 29
+    },
+    "steam_achievement": {
+      "id": "there-is-no-spoon",
+      "name_ja": "スプーンなんてない",
+      "unlocked_at_jst": "2026-11-24T21:52+09:00",
+      "same_account_reunlock_after_reset": true
+    }
+  },
+  "checkpoint_packaged": false
+}

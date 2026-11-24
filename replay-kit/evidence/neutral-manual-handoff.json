@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "verified_on_jst": "2026-11-24",
+  "factorio_version": "2.1.25",
+  "factorio_build": 88022,
+  "seed": 4263722700,
+  "save_sha256": "c0a82d3c5c49fa0fe4aacdea0b77be8bb0a976df06bcd90f9a11e9f10c862b5b",
+  "preparation": {
+    "schema_version": 1,
+    "world_tick": 345403,
+    "factorio_version": "2.1.25",
+    "seed": 4263722700,
+    "multiplayer_preparation": true,
+    "freeplay_initialized": true,
+    "players_removed": 1,
+    "blueprint_libraries_cleared": 1,
+    "chart_tags_removed": 0,
+    "actors_before_removal_on_nauvis": {
+      "characters": 0,
+      "character_corpses": 0
+    },
+    "players_remaining": 0,
+    "characters_remaining": 0,
+    "character_corpses_remaining": 0,
+    "route_storage_entries_remaining": 0,
+    "force_spawn": {
+      "y": 27.5,
+      "x": 140.5
+    },
+    "before": {
+      "rocket_ready": true,
+      "auto_launch_enabled": false,
+      "satellite_count": 1,
+      "rockets_launched": 0,
+      "satellites_launched": 0,
+      "pad_space_science": 0,
+      "silo_position": {
+        "y": 27.5,
+        "x": 146.5
+      },
+      "pad_position": {
+        "y": 28,
+        "x": 160
+      },
+      "silo_energy_joules": 248414.8148148148
+    },
+    "after": {
+      "rocket_ready": true,
+      "auto_launch_enabled": false,
+      "satellite_count": 1,
+      "rockets_launched": 0,
+      "satellites_launched": 0,
+      "pad_space_science": 0,
+      "silo_position": {
+        "y": 27.5,
+        "x": 146.5
+      },
+      "pad_position": {
+        "y": 28,
+        "x": 160
+      },
+      "silo_energy_joules": 248414.8148148148
+    }
+  },
+  "preparation_input_sha256": "502848c1ae4d546601c857dc95e7c1356ada3fc248aeb9499ba8a6e477a241ba",
+  "base_only_native_reload": {
+    "neutral_base_save_sha256": "c0a82d3c5c49fa0fe4aacdea0b77be8bb0a976df06bcd90f9a11e9f10c862b5b",
+    "engine_reopened": true,
+    "mods_loaded": [
+      "core",
+      "base"
+    ],
+    "players_reported": 0
+  },
+  "archive_inspection": {
+    "source_positive_control": {
+      "sha256": "502848c1ae4d546601c857dc95e7c1356ada3fc248aeb9499ba8a6e477a241ba",
+      "zip_member_count": 60,
+      "inflated_level_parts": 6,
+      "thumbnail_present": false,
+      "recorded_replay_member_present": false,
+      "is_main_game": true,
+      "uses_base_freeplay_control": true,
+      "matched_identity_markers": {
+        "former_game_player_name": 1,
+        "known_windows_identity_and_path": 0,
+        "steam_id_text_pattern": 0
+      }
+    },
+    "neutral_save": {
+      "sha256": "c0a82d3c5c49fa0fe4aacdea0b77be8bb0a976df06bcd90f9a11e9f10c862b5b",
+      "zip_member_count": 60,
+      "inflated_level_parts": 6,
+      "thumbnail_present": false,
+      "recorded_replay_member_present": false,
+      "is_main_game": true,
+      "uses_base_freeplay_control": true,
+      "matched_identity_markers": {
+        "former_game_player_name": 0,
+        "known_windows_identity_and_path": 0,
+        "steam_id_text_pattern": 0
+      }
+    }
+  },
+  "manual_validation": {
+    "victory_screen_play_time": "01:37:30",
+    "silo_opened_without_movement": true,
+    "automatic_launch_enabled_before_input": false,
+    "satellite_loaded_before_input": 1,
+    "manual_launch_input_utc": "2026-11-24T14:05:13.056Z",
+    "continue_input_utc": "2026-11-24T14:05:57.900Z",
+    "pad_observed_utc": "2026-11-24T14:06:46.466Z",
+    "landing_pad_inventory_text": "1.0k",
+    "victory_and_delivery_observed": true,
+    "steam_new_unlock_tested": false,
+    "mode": "single-player freeplay",
+    "edition": "Steam",
+    "steam_api_initialized": true,
+    "loaded_mods": [
+      "core",
+      "base"
+    ],
+    "space_science_packs_from_satellite": 1000
+  },
+  "earlier_steam_unlock": {
+    "verified_for_sha256": "0d94f770cb036e984bf85a3f9254e2503d093fd0c0f0b33360e59da171e6ae17",
+    "unlock_time_jst": "2026-11-24T21:52+09:00",
+    "evidence": "steam-recheck.json"
+  },
+  "save_relative_to_kit": "saves/4263722700-manual-neutral-ready.zip"
+}
