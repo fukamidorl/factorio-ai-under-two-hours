@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "factorio_build": 88022,
+  "map_seed": 4263722700,
+  "runs": [
+    {
+      "base": "2.1.25",
+      "tick": 395247,
+      "world_tick": 396601,
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000,
+      "silo_modules": [
+        {
+          "name": "speed-module-3",
+          "quality": "normal",
+          "count": 4
+        }
+      ],
+      "reference": "sprint-complete-final",
+      "player_initialization": "pre-created local player",
+      "start_world_tick": 1354,
+      "mode": "single_player_then_local_server",
+      "observed_event_count": 173,
+      "events": {
+        "research-done-advanced-oil-processing": {
+          "tick": 229031
+        },
+        "research-start-rocket-silo": {
+          "tick": 330570
+        },
+        "research-done-rocket-silo": {
+          "tick": 380586
+        },
+        "silo-placed": {
+          "tick": 386580,
+          "value": {
+            "position": {
+              "y": 27.5,
+              "x": 146.5
+            }
+          }
+        },
+        "satellite-loaded": {
+          "tick": 386610
+        },
+        "launch": {
+          "tick": 394678,
+          "value": {
+            "y": 27.5,
+            "x": 146.5
+          }
+        },
+        "victory": {
+          "tick": 394679
+        },
+        "delivery": {
+          "tick": 395247,
+          "value": 1000
+        }
+      },
+      "recording_point": "cargo received"
+    },
+    {
+      "base": "2.1.25",
+      "tick": 395247,
+      "world_tick": 396601,
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000,
+      "silo_modules": [
+        {
+          "name": "speed-module-3",
+          "quality": "normal",
+          "count": 4
+        }
+      ],
+      "reference": "sprint-confirm-final",
+      "player_initialization": "pre-created local player",
+      "start_world_tick": 1354,
+      "mode": "single_player_then_local_server",
+      "observed_event_count": 173,
+      "events": {
+        "research-done-advanced-oil-processing": {
+          "tick": 229031
+        },
+        "research-start-rocket-silo": {
+          "tick": 330570
+        },
+        "research-done-rocket-silo": {
+          "tick": 380586
+        },
+        "silo-placed": {
+          "tick": 386580,
+          "value": {
+            "position": {
+              "y": 27.5,
+              "x": 146.5
+            }
+          }
+        },
+        "satellite-loaded": {
+          "tick": 386610
+        },
+        "launch": {
+          "tick": 394678,
+          "value": {
+            "y": 27.5,
+            "x": 146.5
+          }
+        },
+        "victory": {
+          "tick": 394679
+        },
+        "delivery": {
+          "tick": 395247,
+          "value": 1000
+        }
+      },
+      "recording_point": "cargo received"
+    },
+    {
+      "base": "2.1.25",
+      "tick": 406738,
+      "world_tick": 408092,
+      "rockets": 0,
+      "satellites": 0,
+      "space_science": 0,
+      "silo_modules": [
+        {
+          "name": "speed-module-3",
+          "quality": "normal",
+          "count": 4
+        }
+      ],
+      "reference": "sprint-visible",
+      "player_initialization": "pre-created local player",
+      "start_world_tick": 1354,
+      "mode": "graphical_single_player",
+      "observed_event_count": 172,
+      "events": {
+        "research-done-advanced-oil-processing": {
+          "tick": 232933
+        },
+        "research-start-rocket-silo": {
+          "tick": 334320
+        },
+        "research-done-rocket-silo": {
+          "tick": 396145
+        },
+        "silo-placed": {
+          "tick": 398640,
+          "value": {
+            "position": {
+              "y": 27.5,
+              "x": 146.5
+            }
+          }
+        },
+        "satellite-loaded": {
+          "tick": 398670
+        },
+        "launch": {
+          "tick": 406737,
+          "value": {
+            "y": 27.5,
+            "x": 146.5
+          }
+        },
+        "victory": {
+          "tick": 406738
+        }
+      },
+      "recording_point": "winning screen before cargo"
+    }
+  ],
+  "continued_save_readback": {
+    "base": "2.1.25",
+    "seed": 4263722700,
+    "continued": true,
+    "rockets": 1,
+    "satellite": 1,
+    "science": 1000,
+    "speed3": 4,
+    "pad": {
+      "y": 28,
+      "x": 160
+    },
+    "silo": {
+      "y": 27.5,
+      "x": 146.5
+    }
+  }
+}

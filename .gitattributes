@@ -1,0 +1,5 @@
+* text=auto
+*.md text eol=lf
+/run_route.py -text
+/mod/** -text
+/world/** -text

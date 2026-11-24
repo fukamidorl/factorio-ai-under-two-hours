@@ -1,0 +1,10 @@
+{
+  "name": "first-rocket-route-check",
+  "title": "First Rocket Route Check",
+  "author": "Factory Launch Project",
+  "version": "0.1.0",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base = 2.1.25"
+  ]
+}

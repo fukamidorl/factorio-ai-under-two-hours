@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "map_seed": 4263722700,
+  "version": "2.1.25",
+  "input_sha256": "92928ed5be1fdda68eb20deaf2caff7c1843d06574e989f3f2c74feed7fa5d60",
+  "headless": {
+    "mode": "factorio_test_save",
+    "base": "2.1.25",
+    "engine_exit": 0,
+    "start_world_tick": 1354,
+    "goal_met": true,
+    "launch_world_tick": 398432,
+    "events": {
+      "mass-route-handoff": {
+        "tick": 29031
+      },
+      "first-chemical-science-pack": {
+        "tick": 216000,
+        "value": 4
+      },
+      "first-production-science-pack": {
+        "tick": 273600,
+        "value": 9
+      },
+      "first-utility-science-pack": {
+        "tick": 288000,
+        "value": 3
+      },
+      "research-start-rocket-silo": {
+        "tick": 330390
+      },
+      "research-done-rocket-silo": {
+        "tick": 381298
+      },
+      "silo-placed": {
+        "tick": 388980,
+        "value": {
+          "position": {
+            "y": 27.5,
+            "x": 146.5
+          }
+        }
+      },
+      "satellite-loaded": {
+        "tick": 389010
+      },
+      "launch": {
+        "tick": 397078,
+        "value": {
+          "y": 27.5,
+          "x": 146.5
+        }
+      },
+      "delivery": {
+        "tick": 397647,
+        "value": 1000
+      }
+    },
+    "rockets": 1,
+    "satellites": 1,
+    "space_science": 1000,
+    "silo_modules": [
+      {
+        "name": "speed-module-3",
+        "quality": "normal",
+        "count": 4
+      }
+    ]
+  },
+  "visible": {
+    "verified_scope": "launch, native freeplay startup, first steam power and in-game camera",
+    "start_world_tick": 1354,
+    "mass_route_handoff_ticks": 29031,
+    "camera": {
+      "tick": 29846,
+      "speed": 12,
+      "scene": "蒸気発電と採掘の立ち上げ",
+      "position": {
+        "x": -28,
+        "y": -22
+      }
+    }
+  },
+  "headless_recheck": {
+    "mode": "factorio_test_save",
+    "scope": "fresh extraction of the prior archive with the same SHA-256 verified runtime inputs",
+    "activation": [
+      "base",
+      "first-rocket-route-check"
+    ],
+    "start_world_tick": 1354,
+    "launch_world_tick": 398432,
+    "events": {
+      "satellite-loaded": {
+        "tick": 389010
+      },
+      "launch": {
+        "tick": 397078,
+        "value": {
+          "y": 27.5,
+          "x": 146.5
+        }
+      },
+      "delivery": {
+        "tick": 397647,
+        "value": 1000
+      }
+    },
+    "space_science": 1000,
+    "engine_exit": 0,
+    "native_finish_game_tick": 399002,
+    "native_wall_elapsed_seconds": 618.738,
+    "same_launch_and_delivery_ticks_as_first_packaged_run": true
+  },
+  "achievement_observations": {
+    "run": "local_world_recheck",
+    "telemetry": "through-latest.json at cargo delivery",
+    "unlock_status": "not checked",
+    "equipment": {
+      "assembling-machine-1": 206,
+      "solar-panel": 0,
+      "laser-turret": 0
+    },
+    "produced": {
+      "electronic-circuit": 130478
+    },
+    "satellite_ingredients_used": {
+      "solar-panel": 100
+    },
+    "research_observed_elapsed_ticks": {
+      "oil-processing": 176895
+    }
+  },
+  "original_input_source": "Starting save generated in 2.1.24, used for the earlier headless and visible checks",
+  "local_world_recheck": {
+    "mode": "factorio_test_save",
+    "world_source": "Factorio 2.1.25 base game generated a fresh save from the shipped map settings",
+    "map_gen_settings_sha256": "91e91ad140e5dfdaa541bdbc338965bcab89e1cfc411c5955f8b13c1e5fe782f",
+    "input_world_sha256_for_this_run": "7a755888a08141188d66edeb317777f1d0137f5adf4c70a8d5c8f9bee75f5ea8",
+    "activation": [
+      "base",
+      "first-rocket-route-check"
+    ],
+    "start_world_tick": 1354,
+    "launch_world_tick": 398432,
+    "events": {
+      "satellite-loaded": {
+        "tick": 389010
+      },
+      "launch": {
+        "tick": 397078,
+        "value": {
+          "y": 27.5,
+          "x": 146.5
+        }
+      },
+      "delivery": {
+        "tick": 397647,
+        "value": 1000
+      }
+    },
+    "matched_earlier_event_count": 172,
+    "space_science": 1000,
+    "engine_exit": 0,
+    "native_finish_game_tick": 399002,
+    "native_wall_elapsed_seconds": 427.114
+  }
+}

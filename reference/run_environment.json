@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "verification_date": "2026-11-24",
+  "machine": {
+    "os": "Windows 11 Home",
+    "os_build": 26200,
+    "architecture": "x64",
+    "cpu": {
+      "model": "Intel Core i5-12450H",
+      "physical_cores": 8,
+      "logical_processors": 12
+    },
+    "installed_memory_gib": 16,
+    "graphics": {
+      "factorio_render_device": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+      "dedicated_memory_gb_approx": 4,
+      "integrated_adapter": "Intel UHD Graphics",
+      "render_api": "Direct3D 11"
+    },
+    "storage": {
+      "type": "NVMe SSD",
+      "capacity_gb_approx": 512
+    }
+  },
+  "factorio": {
+    "version": "2.1.25",
+    "build": 88022,
+    "distribution": "Steam",
+    "ruleset": "base",
+    "space_age_enabled": false,
+    "starting_save_generated_in": "2.1.25",
+    "starting_save_generation": "Local base-game generation from the included map settings",
+    "earlier_archived_starting_save_generated_in": "2.1.24",
+    "seed": 4263722700,
+    "automation_mod": "first-rocket-route-check",
+    "automation_mod_version": "0.1.0"
+  },
+  "launcher": {
+    "python_verified": "3.12.16",
+    "python_documented_minimum": "3.11"
+  },
+  "development": {
+    "assistant": "ChatGPT Codex",
+    "model": "GPT-6.2 Sol",
+    "reasoning_effort_during_rehearsals": ["xhigh", "max"],
+    "reasoning_effort_final_stage": "max",
+    "model_and_effort_source": "project user",
+    "roles": ["route design", "implementation", "rehearsal analysis"],
+    "replay_controller": "local Lua mod",
+    "weekly_usage_observation": {
+      "plan_reported": "ChatGPT Pro 100",
+      "source": "approximate observation reported by the project user",
+      "scope": "remaining weekly allowance displayed during project work",
+      "remaining_percent_start_approx": 100,
+      "remaining_percent_end_approx": 75,
+      "change_percentage_points_approx": -25,
+      "project_only_consumption": null,
+      "project_token_count": null,
+      "project_cost": null
+    }
+  },
+  "development_tools": {
+    "screen_work": ["Computer Use for Steam dialogs and game screen inspection", "Windows input helper for held movement and mining inputs"],
+    "earlier_connection_test": {
+      "mod": "Factorio LLM Use",
+      "mod_version": "0.1.1",
+      "factorio": "2.1.24",
+      "tools": ["uv", "MCP", "local RCON"],
+      "iron_plates_collected": 1
+    },
+    "earlier_screen_demo": {
+      "mod": "visible-first-iron-demo",
+      "mod_version": "0.1.0",
+      "factorio": "2.1.24",
+      "elapsed_ticks": 1310,
+      "iron_plates_collected": 1,
+      "iron_plates_remaining_in_furnace": 0
+    },
+    "build_and_validation": ["PowerShell", "Python", "native Factorio test mode", "local Factorio server in earlier integrated trials", "Git"]
+  },
+  "timing": {
+    "clock_for_results": "game ticks",
+    "normal_speed_ticks_per_second": 60,
+    "visible_configured_max_game_speed": 12,
+    "visible_launch_game_speed": 1,
+    "headless_requested_game_speed": 48,
+    "one_headless_engine_test_elapsed_seconds": 427.114,
+    "earlier_headless_engine_tests_elapsed_seconds": [438.926, 618.738],
+    "wall_time_scope": "Public release verification from test process start to the native Test passed log entry, after map generation"
+  }
+}

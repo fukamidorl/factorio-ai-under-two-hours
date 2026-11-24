@@ -1,0 +1,7 @@
+/runs/
+/world/*.zip
+/.venv/
+/.env
+/.env.*
+__pycache__/
+*.log

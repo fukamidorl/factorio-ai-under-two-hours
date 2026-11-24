@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "steam_achievement_verification": {
+    "source": "Factorio personal achievements page in Steam Community",
+    "checked_on": "2026-11-24",
+    "display_timezone": "Asia/Tokyo",
+    "shown_unlocked_at": {
+      "steam-power": "2026-11-22T17:31+09:00",
+      "no-time-for-chitchat": "2026-11-22T18:50+09:00",
+      "raining-bullets": "2026-11-22T18:50+09:00",
+      "steam-all-the-way": "2026-11-22T18:50+09:00",
+      "crafting-with-productivity": "2026-11-22T18:50+09:00",
+      "there-is-no-spoon": "2026-11-22T21:02+09:00"
+    },
+    "there_is_no_spoon_run": {
+      "factorio_version": "2.1.24",
+      "seed": 210539101,
+      "game_victory_time": "5:49:24",
+      "finish": "Lua-assisted trial save resumed shortly before victory in the base game without a custom mod",
+      "matched_by": "The in-game achievement notification documented during the trial and the matching minute on the Steam page"
+    }
+  },
+  "rta_comparison": {
+    "runner": "Zaspar Default Settings 2.0.77",
+    "run_date": "2026-08-22",
+    "registered_time": "1:59:01",
+    "victory_screen_game_time": "1:58:32",
+    "source": "https://www.speedrun.com/factorio/runs/yvk04e8m",
+    "rehearsal": {
+      "version": "2.1.24",
+      "seed": 4263722700,
+      "observed_until_game_minute": 137
+    },
+    "rates": {
+      "20-30": {
+        "iron-plate": {
+          "runner_per_game_minute": 1605.9,
+          "rehearsal_per_game_minute": 192.8
+        },
+        "copper-plate": {
+          "runner_per_game_minute": 276.4,
+          "rehearsal_per_game_minute": 176.0
+        },
+        "steel-plate": {
+          "runner_per_game_minute": 8.3,
+          "rehearsal_per_game_minute": 0.0
+        },
+        "chemical-science-pack": {
+          "runner_per_game_minute": 0.0,
+          "rehearsal_per_game_minute": 0.0
+        },
+        "production-science-pack": {
+          "runner_per_game_minute": 0.0,
+          "rehearsal_per_game_minute": 0.0
+        },
+        "utility-science-pack": {
+          "runner_per_game_minute": 0.0,
+          "rehearsal_per_game_minute": 0.0
+        }
+      },
+      "102-112": {
+        "iron-plate": {
+          "runner_per_game_minute": 8752.9,
+          "rehearsal_per_game_minute": 750.1
+        },
+        "copper-plate": {
+          "runner_per_game_minute": 4559.8,
+          "rehearsal_per_game_minute": 232.9
+        },
+        "steel-plate": {
+          "runner_per_game_minute": 1016.9,
+          "rehearsal_per_game_minute": 43.6
+        },
+        "chemical-science-pack": {
+          "runner_per_game_minute": 67.0,
+          "rehearsal_per_game_minute": 19.0
+        },
+        "production-science-pack": {
+          "runner_per_game_minute": 101.4,
+          "rehearsal_per_game_minute": 0.0
+        },
+        "utility-science-pack": {
+          "runner_per_game_minute": 105.3,
+          "rehearsal_per_game_minute": 0.0
+        }
+      }
+    }
+  },
+  "historical_route_runs": [
+    {
+      "reference": "trial-05-finale",
+      "scope": "Mass-production route, with revisions loaded at same-map checkpoints",
+      "seed": 4263722700,
+      "version": "2.1.25",
+      "start_world_tick": 1354,
+      "elapsed_event_ticks": {
+        "first-chemical-science-pack": 1245600,
+        "first-production-science-pack": 1339200,
+        "first-utility-science-pack": 1339200,
+        "research-start-rocket-silo": 1370010,
+        "research-done-rocket-silo": 1421724,
+        "silo-placed": 1480680,
+        "satellite-loaded": 1480710,
+        "launch": 1500793,
+        "victory": 1500794,
+        "delivery": 1501362
+      },
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000
+    },
+    {
+      "reference": "leadtime-fuel-final",
+      "scope": "Readiness-driven construction, switching to a local server at 100 minutes",
+      "seed": 4263722700,
+      "version": "2.1.25",
+      "start_world_tick": 1354,
+      "elapsed_event_ticks": {
+        "first-chemical-science-pack": 194400,
+        "first-production-science-pack": 334800,
+        "first-utility-science-pack": 338400,
+        "research-start-rocket-silo": 417570,
+        "research-done-rocket-silo": 458877,
+        "silo-placed": 461340,
+        "satellite-loaded": 461370,
+        "launch": 481452,
+        "victory": 481453,
+        "delivery": 482021
+      },
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000
+    },
+    {
+      "reference": "sprint-terminal-final",
+      "scope": "Sub-two-hour checkpoint trial, switching at 65 minutes and loading changes at 90 and 105 minutes",
+      "seed": 4263722700,
+      "version": "2.1.25",
+      "start_world_tick": 1354,
+      "elapsed_event_ticks": {
+        "first-chemical-science-pack": 219600,
+        "first-production-science-pack": 277200,
+        "first-utility-science-pack": 291600,
+        "research-start-rocket-silo": 331110,
+        "research-done-rocket-silo": 387036,
+        "silo-placed": 389520,
+        "satellite-loaded": 389550,
+        "launch": 397627,
+        "victory": 397628,
+        "delivery": 398196
+      },
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000
+    },
+    {
+      "reference": "sprint-reproduce-final",
+      "scope": "First attempt with all sprint revisions present from the opening",
+      "seed": 4263722700,
+      "version": "2.1.25",
+      "start_world_tick": 1354,
+      "elapsed_event_ticks": {
+        "first-chemical-science-pack": 216000,
+        "first-production-science-pack": 273600,
+        "first-utility-science-pack": 288000,
+        "research-start-rocket-silo": 329670,
+        "research-done-rocket-silo": 416647,
+        "silo-placed": 419160,
+        "satellite-loaded": 419190,
+        "launch": 439688,
+        "victory": 439689,
+        "delivery": 440257
+      },
+      "rockets": 1,
+      "satellites": 1,
+      "space_science": 1000
+    }
+  ]
+}
